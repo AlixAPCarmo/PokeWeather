@@ -9,211 +9,218 @@
 8-->C:\Users\alixc\Desktop\PokeWeather2023\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="34" />
 9-->C:\Users\alixc\Desktop\PokeWeather2023\app\src\main\AndroidManifest.xml
-10
-11    <!-- Internet Permissions -->
-12    <uses-permission android:name="android.permission.INTERNET" />
-12-->C:\Users\alixc\Desktop\PokeWeather2023\app\src\main\AndroidManifest.xml:6:5-67
-12-->C:\Users\alixc\Desktop\PokeWeather2023\app\src\main\AndroidManifest.xml:6:22-64
-13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-13-->C:\Users\alixc\Desktop\PokeWeather2023\app\src\main\AndroidManifest.xml:7:5-79
-13-->C:\Users\alixc\Desktop\PokeWeather2023\app\src\main\AndroidManifest.xml:7:22-76
-14    <!-- Location Permissions -->
-15    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-15-->C:\Users\alixc\Desktop\PokeWeather2023\app\src\main\AndroidManifest.xml:9:5-81
-15-->C:\Users\alixc\Desktop\PokeWeather2023\app\src\main\AndroidManifest.xml:9:22-78
-16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-16-->C:\Users\alixc\Desktop\PokeWeather2023\app\src\main\AndroidManifest.xml:10:5-79
-16-->C:\Users\alixc\Desktop\PokeWeather2023\app\src\main\AndroidManifest.xml:10:22-76
-17    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-17-->[com.google.android.libraries.places:places:3.3.0] C:\Users\alixc\.gradle\caches\transforms-3\7c52cb8b8c1088056bcdaf1495ce7de3\transformed\places-3.3.0\AndroidManifest.xml:11:5-76
-17-->[com.google.android.libraries.places:places:3.3.0] C:\Users\alixc\.gradle\caches\transforms-3\7c52cb8b8c1088056bcdaf1495ce7de3\transformed\places-3.3.0\AndroidManifest.xml:11:22-73
-18
-19    <uses-feature
-19-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\alixc\.gradle\caches\transforms-3\30a4c63375e643b695a154c95483e023\transformed\play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
-20        android:glEsVersion="0x00020000"
-20-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\alixc\.gradle\caches\transforms-3\30a4c63375e643b695a154c95483e023\transformed\play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
-21        android:required="true" />
-21-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\alixc\.gradle\caches\transforms-3\30a4c63375e643b695a154c95483e023\transformed\play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
-22
-23    <permission
-23-->[androidx.core:core:1.13.0-alpha02] C:\Users\alixc\.gradle\caches\transforms-3\bed8ee4ddb81653f1cf13ad88c73b206\transformed\core-1.13.0-alpha02\AndroidManifest.xml:22:5-24:47
-24        android:name="pt.ipt.dam.pokeWeather.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-24-->[androidx.core:core:1.13.0-alpha02] C:\Users\alixc\.gradle\caches\transforms-3\bed8ee4ddb81653f1cf13ad88c73b206\transformed\core-1.13.0-alpha02\AndroidManifest.xml:23:9-81
-25        android:protectionLevel="signature" />
-25-->[androidx.core:core:1.13.0-alpha02] C:\Users\alixc\.gradle\caches\transforms-3\bed8ee4ddb81653f1cf13ad88c73b206\transformed\core-1.13.0-alpha02\AndroidManifest.xml:24:9-44
+10    <!-- Internet Permissions -->
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\alixc\Desktop\PokeWeather2023\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\alixc\Desktop\PokeWeather2023\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- Location Permissions -->
+12-->C:\Users\alixc\Desktop\PokeWeather2023\app\src\main\AndroidManifest.xml:6:5-79
+12-->C:\Users\alixc\Desktop\PokeWeather2023\app\src\main\AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+13-->C:\Users\alixc\Desktop\PokeWeather2023\app\src\main\AndroidManifest.xml:7:5-81
+13-->C:\Users\alixc\Desktop\PokeWeather2023\app\src\main\AndroidManifest.xml:7:22-78
+14    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+14-->C:\Users\alixc\Desktop\PokeWeather2023\app\src\main\AndroidManifest.xml:8:5-79
+14-->C:\Users\alixc\Desktop\PokeWeather2023\app\src\main\AndroidManifest.xml:8:22-76
+15    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+15-->[com.google.android.libraries.places:places:3.3.0] C:\Users\alixc\.gradle\caches\transforms-3\02b1e09f27d52495eb1c957e9c33e730\transformed\places-3.3.0\AndroidManifest.xml:11:5-76
+15-->[com.google.android.libraries.places:places:3.3.0] C:\Users\alixc\.gradle\caches\transforms-3\02b1e09f27d52495eb1c957e9c33e730\transformed\places-3.3.0\AndroidManifest.xml:11:22-73
+16
+17    <uses-feature
+17-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\alixc\.gradle\caches\transforms-3\2388fb7f30cac0e7b5be9d1e98597be4\transformed\play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+18        android:glEsVersion="0x00020000"
+18-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\alixc\.gradle\caches\transforms-3\2388fb7f30cac0e7b5be9d1e98597be4\transformed\play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+19        android:required="true" />
+19-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\alixc\.gradle\caches\transforms-3\2388fb7f30cac0e7b5be9d1e98597be4\transformed\play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+20
+21    <permission
+21-->[androidx.core:core:1.13.0-alpha02] C:\Users\alixc\.gradle\caches\transforms-3\8435deef8c71521975816a218ebbd92c\transformed\core-1.13.0-alpha02\AndroidManifest.xml:22:5-24:47
+22        android:name="pt.ipt.dam.pokeWeather.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+22-->[androidx.core:core:1.13.0-alpha02] C:\Users\alixc\.gradle\caches\transforms-3\8435deef8c71521975816a218ebbd92c\transformed\core-1.13.0-alpha02\AndroidManifest.xml:23:9-81
+23        android:protectionLevel="signature" />
+23-->[androidx.core:core:1.13.0-alpha02] C:\Users\alixc\.gradle\caches\transforms-3\8435deef8c71521975816a218ebbd92c\transformed\core-1.13.0-alpha02\AndroidManifest.xml:24:9-44
+24
+25    <uses-permission android:name="pt.ipt.dam.pokeWeather.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+25-->[androidx.core:core:1.13.0-alpha02] C:\Users\alixc\.gradle\caches\transforms-3\8435deef8c71521975816a218ebbd92c\transformed\core-1.13.0-alpha02\AndroidManifest.xml:26:5-97
+25-->[androidx.core:core:1.13.0-alpha02] C:\Users\alixc\.gradle\caches\transforms-3\8435deef8c71521975816a218ebbd92c\transformed\core-1.13.0-alpha02\AndroidManifest.xml:26:22-94
 26
-27    <uses-permission android:name="pt.ipt.dam.pokeWeather.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-27-->[androidx.core:core:1.13.0-alpha02] C:\Users\alixc\.gradle\caches\transforms-3\bed8ee4ddb81653f1cf13ad88c73b206\transformed\core-1.13.0-alpha02\AndroidManifest.xml:26:5-97
-27-->[androidx.core:core:1.13.0-alpha02] C:\Users\alixc\.gradle\caches\transforms-3\bed8ee4ddb81653f1cf13ad88c73b206\transformed\core-1.13.0-alpha02\AndroidManifest.xml:26:22-94
-28
-29    <application
-29-->C:\Users\alixc\Desktop\PokeWeather2023\app\src\main\AndroidManifest.xml:12:5-30:19
-30        android:allowBackup="true"
-30-->C:\Users\alixc\Desktop\PokeWeather2023\app\src\main\AndroidManifest.xml:13:9-35
-31        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-31-->[androidx.core:core:1.13.0-alpha02] C:\Users\alixc\.gradle\caches\transforms-3\bed8ee4ddb81653f1cf13ad88c73b206\transformed\core-1.13.0-alpha02\AndroidManifest.xml:28:18-86
-32        android:dataExtractionRules="@xml/data_extraction_rules"
-32-->C:\Users\alixc\Desktop\PokeWeather2023\app\src\main\AndroidManifest.xml:14:9-65
-33        android:debuggable="true"
-34        android:extractNativeLibs="false"
-35        android:fullBackupContent="@xml/backup_rules"
-35-->C:\Users\alixc\Desktop\PokeWeather2023\app\src\main\AndroidManifest.xml:15:9-54
-36        android:icon="@mipmap/ic_launcher"
-36-->C:\Users\alixc\Desktop\PokeWeather2023\app\src\main\AndroidManifest.xml:16:9-43
-37        android:label="@string/app_name"
-37-->C:\Users\alixc\Desktop\PokeWeather2023\app\src\main\AndroidManifest.xml:17:9-41
-38        android:supportsRtl="true"
-38-->C:\Users\alixc\Desktop\PokeWeather2023\app\src\main\AndroidManifest.xml:18:9-35
-39        android:testOnly="true"
-40        android:theme="@style/Theme.PokeWeather" >
-40-->C:\Users\alixc\Desktop\PokeWeather2023\app\src\main\AndroidManifest.xml:19:9-49
-41        <activity
-41-->C:\Users\alixc\Desktop\PokeWeather2023\app\src\main\AndroidManifest.xml:21:9-29:20
-42            android:name="pt.ipt.dam.pokeWeather.ui.activity.PokeWeatherListActivity"
-42-->C:\Users\alixc\Desktop\PokeWeather2023\app\src\main\AndroidManifest.xml:22:13-64
-43            android:exported="true" >
-43-->C:\Users\alixc\Desktop\PokeWeather2023\app\src\main\AndroidManifest.xml:23:13-36
-44            <intent-filter>
-44-->C:\Users\alixc\Desktop\PokeWeather2023\app\src\main\AndroidManifest.xml:24:13-28:29
-45                <action android:name="android.intent.action.MAIN" />
-45-->C:\Users\alixc\Desktop\PokeWeather2023\app\src\main\AndroidManifest.xml:25:17-69
-45-->C:\Users\alixc\Desktop\PokeWeather2023\app\src\main\AndroidManifest.xml:25:25-66
-46
-47                <category android:name="android.intent.category.LAUNCHER" />
-47-->C:\Users\alixc\Desktop\PokeWeather2023\app\src\main\AndroidManifest.xml:27:17-77
-47-->C:\Users\alixc\Desktop\PokeWeather2023\app\src\main\AndroidManifest.xml:27:27-74
-48            </intent-filter>
-49        </activity>
-50        <activity
-50-->[com.google.android.libraries.places:places:3.3.0] C:\Users\alixc\.gradle\caches\transforms-3\7c52cb8b8c1088056bcdaf1495ce7de3\transformed\places-3.3.0\AndroidManifest.xml:15:9-21:20
-51            android:name="com.google.android.libraries.places.widget.AutocompleteActivity"
-51-->[com.google.android.libraries.places:places:3.3.0] C:\Users\alixc\.gradle\caches\transforms-3\7c52cb8b8c1088056bcdaf1495ce7de3\transformed\places-3.3.0\AndroidManifest.xml:16:13-91
-52            android:exported="false"
-52-->[com.google.android.libraries.places:places:3.3.0] C:\Users\alixc\.gradle\caches\transforms-3\7c52cb8b8c1088056bcdaf1495ce7de3\transformed\places-3.3.0\AndroidManifest.xml:17:13-37
-53            android:label="@string/places_autocomplete_label"
-53-->[com.google.android.libraries.places:places:3.3.0] C:\Users\alixc\.gradle\caches\transforms-3\7c52cb8b8c1088056bcdaf1495ce7de3\transformed\places-3.3.0\AndroidManifest.xml:18:13-62
-54            android:theme="@style/PlacesAutocompleteOverlay"
-54-->[com.google.android.libraries.places:places:3.3.0] C:\Users\alixc\.gradle\caches\transforms-3\7c52cb8b8c1088056bcdaf1495ce7de3\transformed\places-3.3.0\AndroidManifest.xml:19:13-61
-55            android:windowSoftInputMode="adjustResize" >
-55-->[com.google.android.libraries.places:places:3.3.0] C:\Users\alixc\.gradle\caches\transforms-3\7c52cb8b8c1088056bcdaf1495ce7de3\transformed\places-3.3.0\AndroidManifest.xml:20:13-55
-56        </activity>
-57
-58        <provider
-58-->[androidx.emoji2:emoji2:1.2.0] C:\Users\alixc\.gradle\caches\transforms-3\2533f8bdc5b8fb2554b26e99e5254b17\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-59            android:name="androidx.startup.InitializationProvider"
-59-->[androidx.emoji2:emoji2:1.2.0] C:\Users\alixc\.gradle\caches\transforms-3\2533f8bdc5b8fb2554b26e99e5254b17\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
-60            android:authorities="pt.ipt.dam.pokeWeather.androidx-startup"
-60-->[androidx.emoji2:emoji2:1.2.0] C:\Users\alixc\.gradle\caches\transforms-3\2533f8bdc5b8fb2554b26e99e5254b17\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
-61            android:exported="false" >
-61-->[androidx.emoji2:emoji2:1.2.0] C:\Users\alixc\.gradle\caches\transforms-3\2533f8bdc5b8fb2554b26e99e5254b17\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
-62            <meta-data
-62-->[androidx.emoji2:emoji2:1.2.0] C:\Users\alixc\.gradle\caches\transforms-3\2533f8bdc5b8fb2554b26e99e5254b17\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-63                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-63-->[androidx.emoji2:emoji2:1.2.0] C:\Users\alixc\.gradle\caches\transforms-3\2533f8bdc5b8fb2554b26e99e5254b17\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
-64                android:value="androidx.startup" />
-64-->[androidx.emoji2:emoji2:1.2.0] C:\Users\alixc\.gradle\caches\transforms-3\2533f8bdc5b8fb2554b26e99e5254b17\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
-65            <meta-data
-65-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\alixc\.gradle\caches\transforms-3\b0eebe1d8ea5f6570e73c595b800c89b\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
-66                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-66-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\alixc\.gradle\caches\transforms-3\b0eebe1d8ea5f6570e73c595b800c89b\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
-67                android:value="androidx.startup" />
-67-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\alixc\.gradle\caches\transforms-3\b0eebe1d8ea5f6570e73c595b800c89b\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
-68            <meta-data
-68-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\alixc\.gradle\caches\transforms-3\d5d439dcb3b77558e100f5c156b196ce\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
-69                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-69-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\alixc\.gradle\caches\transforms-3\d5d439dcb3b77558e100f5c156b196ce\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
-70                android:value="androidx.startup" />
-70-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\alixc\.gradle\caches\transforms-3\d5d439dcb3b77558e100f5c156b196ce\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
-71        </provider> <!-- Needs to be explicitly declared on P+ -->
-72        <uses-library
-72-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\alixc\.gradle\caches\transforms-3\30a4c63375e643b695a154c95483e023\transformed\play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
-73            android:name="org.apache.http.legacy"
-73-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\alixc\.gradle\caches\transforms-3\30a4c63375e643b695a154c95483e023\transformed\play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
-74            android:required="false" />
-74-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\alixc\.gradle\caches\transforms-3\30a4c63375e643b695a154c95483e023\transformed\play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
-75
-76        <activity
-76-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\alixc\.gradle\caches\transforms-3\e9a4837548d288ef37b619bd660efac4\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
-77            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-77-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\alixc\.gradle\caches\transforms-3\e9a4837548d288ef37b619bd660efac4\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
-78            android:exported="false"
-78-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\alixc\.gradle\caches\transforms-3\e9a4837548d288ef37b619bd660efac4\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
-79            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-79-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\alixc\.gradle\caches\transforms-3\e9a4837548d288ef37b619bd660efac4\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
-80
-81        <meta-data
-81-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\alixc\.gradle\caches\transforms-3\8aa979957ae435a832c8d2790729b592\transformed\play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
-82            android:name="com.google.android.gms.version"
-82-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\alixc\.gradle\caches\transforms-3\8aa979957ae435a832c8d2790729b592\transformed\play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
-83            android:value="@integer/google_play_services_version" />
-83-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\alixc\.gradle\caches\transforms-3\8aa979957ae435a832c8d2790729b592\transformed\play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
-84
-85        <service
-85-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\alixc\.gradle\caches\transforms-3\8ea528e80d60dd692638fcecc04946a0\transformed\transport-backend-cct-2.3.0\AndroidManifest.xml:29:9-35:19
-86            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
-86-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\alixc\.gradle\caches\transforms-3\8ea528e80d60dd692638fcecc04946a0\transformed\transport-backend-cct-2.3.0\AndroidManifest.xml:30:13-103
-87            android:exported="false" >
-87-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\alixc\.gradle\caches\transforms-3\8ea528e80d60dd692638fcecc04946a0\transformed\transport-backend-cct-2.3.0\AndroidManifest.xml:31:13-37
-88            <meta-data
-88-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\alixc\.gradle\caches\transforms-3\8ea528e80d60dd692638fcecc04946a0\transformed\transport-backend-cct-2.3.0\AndroidManifest.xml:32:13-34:39
-89                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
-89-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\alixc\.gradle\caches\transforms-3\8ea528e80d60dd692638fcecc04946a0\transformed\transport-backend-cct-2.3.0\AndroidManifest.xml:33:17-94
-90                android:value="cct" />
-90-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\alixc\.gradle\caches\transforms-3\8ea528e80d60dd692638fcecc04946a0\transformed\transport-backend-cct-2.3.0\AndroidManifest.xml:34:17-36
-91        </service>
-92        <service
-92-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\alixc\.gradle\caches\transforms-3\12407dcd8cc4a565668e38b813966030\transformed\transport-runtime-2.2.3\AndroidManifest.xml:26:9-30:19
-93            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
-93-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\alixc\.gradle\caches\transforms-3\12407dcd8cc4a565668e38b813966030\transformed\transport-runtime-2.2.3\AndroidManifest.xml:27:13-117
-94            android:exported="false"
-94-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\alixc\.gradle\caches\transforms-3\12407dcd8cc4a565668e38b813966030\transformed\transport-runtime-2.2.3\AndroidManifest.xml:28:13-37
-95            android:permission="android.permission.BIND_JOB_SERVICE" >
-95-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\alixc\.gradle\caches\transforms-3\12407dcd8cc4a565668e38b813966030\transformed\transport-runtime-2.2.3\AndroidManifest.xml:29:13-69
-96        </service>
-97
-98        <receiver
-98-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\alixc\.gradle\caches\transforms-3\12407dcd8cc4a565668e38b813966030\transformed\transport-runtime-2.2.3\AndroidManifest.xml:32:9-34:40
-99            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
-99-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\alixc\.gradle\caches\transforms-3\12407dcd8cc4a565668e38b813966030\transformed\transport-runtime-2.2.3\AndroidManifest.xml:33:13-132
-100            android:exported="false" />
-100-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\alixc\.gradle\caches\transforms-3\12407dcd8cc4a565668e38b813966030\transformed\transport-runtime-2.2.3\AndroidManifest.xml:34:13-37
-101        <receiver
-101-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\alixc\.gradle\caches\transforms-3\d5d439dcb3b77558e100f5c156b196ce\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
-102            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-102-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\alixc\.gradle\caches\transforms-3\d5d439dcb3b77558e100f5c156b196ce\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
-103            android:directBootAware="false"
-103-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\alixc\.gradle\caches\transforms-3\d5d439dcb3b77558e100f5c156b196ce\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
-104            android:enabled="true"
-104-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\alixc\.gradle\caches\transforms-3\d5d439dcb3b77558e100f5c156b196ce\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
-105            android:exported="true"
-105-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\alixc\.gradle\caches\transforms-3\d5d439dcb3b77558e100f5c156b196ce\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
-106            android:permission="android.permission.DUMP" >
-106-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\alixc\.gradle\caches\transforms-3\d5d439dcb3b77558e100f5c156b196ce\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
-107            <intent-filter>
-107-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\alixc\.gradle\caches\transforms-3\d5d439dcb3b77558e100f5c156b196ce\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
-108                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-108-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\alixc\.gradle\caches\transforms-3\d5d439dcb3b77558e100f5c156b196ce\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
-108-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\alixc\.gradle\caches\transforms-3\d5d439dcb3b77558e100f5c156b196ce\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
-109            </intent-filter>
-110            <intent-filter>
-110-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\alixc\.gradle\caches\transforms-3\d5d439dcb3b77558e100f5c156b196ce\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
-111                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-111-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\alixc\.gradle\caches\transforms-3\d5d439dcb3b77558e100f5c156b196ce\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
-111-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\alixc\.gradle\caches\transforms-3\d5d439dcb3b77558e100f5c156b196ce\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
-112            </intent-filter>
-113            <intent-filter>
-113-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\alixc\.gradle\caches\transforms-3\d5d439dcb3b77558e100f5c156b196ce\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
-114                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-114-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\alixc\.gradle\caches\transforms-3\d5d439dcb3b77558e100f5c156b196ce\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
-114-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\alixc\.gradle\caches\transforms-3\d5d439dcb3b77558e100f5c156b196ce\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
-115            </intent-filter>
-116            <intent-filter>
-116-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\alixc\.gradle\caches\transforms-3\d5d439dcb3b77558e100f5c156b196ce\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
-117                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-117-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\alixc\.gradle\caches\transforms-3\d5d439dcb3b77558e100f5c156b196ce\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
-117-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\alixc\.gradle\caches\transforms-3\d5d439dcb3b77558e100f5c156b196ce\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
-118            </intent-filter>
-119        </receiver>
-120    </application>
-121
-122</manifest>
+27    <application
+27-->C:\Users\alixc\Desktop\PokeWeather2023\app\src\main\AndroidManifest.xml:10:5-32:19
+28        android:allowBackup="true"
+28-->C:\Users\alixc\Desktop\PokeWeather2023\app\src\main\AndroidManifest.xml:11:9-35
+29        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+29-->[androidx.core:core:1.13.0-alpha02] C:\Users\alixc\.gradle\caches\transforms-3\8435deef8c71521975816a218ebbd92c\transformed\core-1.13.0-alpha02\AndroidManifest.xml:28:18-86
+30        android:dataExtractionRules="@xml/data_extraction_rules"
+30-->C:\Users\alixc\Desktop\PokeWeather2023\app\src\main\AndroidManifest.xml:12:9-65
+31        android:debuggable="true"
+32        android:extractNativeLibs="false"
+33        android:fullBackupContent="@xml/backup_rules"
+33-->C:\Users\alixc\Desktop\PokeWeather2023\app\src\main\AndroidManifest.xml:13:9-54
+34        android:icon="@mipmap/ic_launcher"
+34-->C:\Users\alixc\Desktop\PokeWeather2023\app\src\main\AndroidManifest.xml:14:9-43
+35        android:label="@string/app_name"
+35-->C:\Users\alixc\Desktop\PokeWeather2023\app\src\main\AndroidManifest.xml:15:9-41
+36        android:supportsRtl="true"
+36-->C:\Users\alixc\Desktop\PokeWeather2023\app\src\main\AndroidManifest.xml:16:9-35
+37        android:testOnly="true"
+38        android:theme="@style/Theme.PokeWeather" >
+38-->C:\Users\alixc\Desktop\PokeWeather2023\app\src\main\AndroidManifest.xml:17:9-49
+39        <activity
+39-->C:\Users\alixc\Desktop\PokeWeather2023\app\src\main\AndroidManifest.xml:19:9-21:40
+40            android:name="pt.ipt.dam.pokeWeather.ui.activity.RegisterActivity"
+40-->C:\Users\alixc\Desktop\PokeWeather2023\app\src\main\AndroidManifest.xml:20:13-57
+41            android:exported="false" />
+41-->C:\Users\alixc\Desktop\PokeWeather2023\app\src\main\AndroidManifest.xml:21:13-37
+42        <activity android:name="pt.ipt.dam.pokeWeather.ui.activity.PokeWeatherActivity" />
+42-->C:\Users\alixc\Desktop\PokeWeather2023\app\src\main\AndroidManifest.xml:22:9-69
+42-->C:\Users\alixc\Desktop\PokeWeather2023\app\src\main\AndroidManifest.xml:22:19-66
+43        <activity
+43-->C:\Users\alixc\Desktop\PokeWeather2023\app\src\main\AndroidManifest.xml:23:9-31:20
+44            android:name="pt.ipt.dam.pokeWeather.ui.activity.LoginActivity"
+44-->C:\Users\alixc\Desktop\PokeWeather2023\app\src\main\AndroidManifest.xml:24:13-54
+45            android:exported="true" >
+45-->C:\Users\alixc\Desktop\PokeWeather2023\app\src\main\AndroidManifest.xml:25:13-36
+46            <intent-filter>
+46-->C:\Users\alixc\Desktop\PokeWeather2023\app\src\main\AndroidManifest.xml:26:13-30:29
+47                <action android:name="android.intent.action.MAIN" />
+47-->C:\Users\alixc\Desktop\PokeWeather2023\app\src\main\AndroidManifest.xml:27:17-69
+47-->C:\Users\alixc\Desktop\PokeWeather2023\app\src\main\AndroidManifest.xml:27:25-66
+48
+49                <category android:name="android.intent.category.LAUNCHER" />
+49-->C:\Users\alixc\Desktop\PokeWeather2023\app\src\main\AndroidManifest.xml:29:17-77
+49-->C:\Users\alixc\Desktop\PokeWeather2023\app\src\main\AndroidManifest.xml:29:27-74
+50            </intent-filter>
+51        </activity>
+52        <activity
+52-->[com.google.android.libraries.places:places:3.3.0] C:\Users\alixc\.gradle\caches\transforms-3\02b1e09f27d52495eb1c957e9c33e730\transformed\places-3.3.0\AndroidManifest.xml:15:9-21:20
+53            android:name="com.google.android.libraries.places.widget.AutocompleteActivity"
+53-->[com.google.android.libraries.places:places:3.3.0] C:\Users\alixc\.gradle\caches\transforms-3\02b1e09f27d52495eb1c957e9c33e730\transformed\places-3.3.0\AndroidManifest.xml:16:13-91
+54            android:exported="false"
+54-->[com.google.android.libraries.places:places:3.3.0] C:\Users\alixc\.gradle\caches\transforms-3\02b1e09f27d52495eb1c957e9c33e730\transformed\places-3.3.0\AndroidManifest.xml:17:13-37
+55            android:label="@string/places_autocomplete_label"
+55-->[com.google.android.libraries.places:places:3.3.0] C:\Users\alixc\.gradle\caches\transforms-3\02b1e09f27d52495eb1c957e9c33e730\transformed\places-3.3.0\AndroidManifest.xml:18:13-62
+56            android:theme="@style/PlacesAutocompleteOverlay"
+56-->[com.google.android.libraries.places:places:3.3.0] C:\Users\alixc\.gradle\caches\transforms-3\02b1e09f27d52495eb1c957e9c33e730\transformed\places-3.3.0\AndroidManifest.xml:19:13-61
+57            android:windowSoftInputMode="adjustResize" >
+57-->[com.google.android.libraries.places:places:3.3.0] C:\Users\alixc\.gradle\caches\transforms-3\02b1e09f27d52495eb1c957e9c33e730\transformed\places-3.3.0\AndroidManifest.xml:20:13-55
+58        </activity>
+59
+60        <provider
+60-->[androidx.emoji2:emoji2:1.2.0] C:\Users\alixc\.gradle\caches\transforms-3\8fbf3d3b449477ca0074504021c26682\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+61            android:name="androidx.startup.InitializationProvider"
+61-->[androidx.emoji2:emoji2:1.2.0] C:\Users\alixc\.gradle\caches\transforms-3\8fbf3d3b449477ca0074504021c26682\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+62            android:authorities="pt.ipt.dam.pokeWeather.androidx-startup"
+62-->[androidx.emoji2:emoji2:1.2.0] C:\Users\alixc\.gradle\caches\transforms-3\8fbf3d3b449477ca0074504021c26682\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+63            android:exported="false" >
+63-->[androidx.emoji2:emoji2:1.2.0] C:\Users\alixc\.gradle\caches\transforms-3\8fbf3d3b449477ca0074504021c26682\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+64            <meta-data
+64-->[androidx.emoji2:emoji2:1.2.0] C:\Users\alixc\.gradle\caches\transforms-3\8fbf3d3b449477ca0074504021c26682\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+65                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+65-->[androidx.emoji2:emoji2:1.2.0] C:\Users\alixc\.gradle\caches\transforms-3\8fbf3d3b449477ca0074504021c26682\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+66                android:value="androidx.startup" />
+66-->[androidx.emoji2:emoji2:1.2.0] C:\Users\alixc\.gradle\caches\transforms-3\8fbf3d3b449477ca0074504021c26682\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+67            <meta-data
+67-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\alixc\.gradle\caches\transforms-3\88ff111f62b72331aef7c6f686e4b341\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+68                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+68-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\alixc\.gradle\caches\transforms-3\88ff111f62b72331aef7c6f686e4b341\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+69                android:value="androidx.startup" />
+69-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\alixc\.gradle\caches\transforms-3\88ff111f62b72331aef7c6f686e4b341\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+70            <meta-data
+70-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\alixc\.gradle\caches\transforms-3\f260a44aa17873ed5aabf62addc802e4\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+71                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+71-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\alixc\.gradle\caches\transforms-3\f260a44aa17873ed5aabf62addc802e4\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+72                android:value="androidx.startup" />
+72-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\alixc\.gradle\caches\transforms-3\f260a44aa17873ed5aabf62addc802e4\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+73        </provider> <!-- Needs to be explicitly declared on P+ -->
+74        <uses-library
+74-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\alixc\.gradle\caches\transforms-3\2388fb7f30cac0e7b5be9d1e98597be4\transformed\play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+75            android:name="org.apache.http.legacy"
+75-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\alixc\.gradle\caches\transforms-3\2388fb7f30cac0e7b5be9d1e98597be4\transformed\play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+76            android:required="false" />
+76-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\alixc\.gradle\caches\transforms-3\2388fb7f30cac0e7b5be9d1e98597be4\transformed\play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+77
+78        <activity
+78-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\alixc\.gradle\caches\transforms-3\d40d7eb4a3cc2054f4680f0cb941390e\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+79            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+79-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\alixc\.gradle\caches\transforms-3\d40d7eb4a3cc2054f4680f0cb941390e\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+80            android:exported="false"
+80-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\alixc\.gradle\caches\transforms-3\d40d7eb4a3cc2054f4680f0cb941390e\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+81            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+81-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\alixc\.gradle\caches\transforms-3\d40d7eb4a3cc2054f4680f0cb941390e\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+82
+83        <meta-data
+83-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\alixc\.gradle\caches\transforms-3\99bc8ed953e037515b82b4494d900329\transformed\play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+84            android:name="com.google.android.gms.version"
+84-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\alixc\.gradle\caches\transforms-3\99bc8ed953e037515b82b4494d900329\transformed\play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+85            android:value="@integer/google_play_services_version" />
+85-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\alixc\.gradle\caches\transforms-3\99bc8ed953e037515b82b4494d900329\transformed\play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+86
+87        <service
+87-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\alixc\.gradle\caches\transforms-3\4667a18ab3ef4a056861de611ceced91\transformed\transport-backend-cct-2.3.0\AndroidManifest.xml:29:9-35:19
+88            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+88-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\alixc\.gradle\caches\transforms-3\4667a18ab3ef4a056861de611ceced91\transformed\transport-backend-cct-2.3.0\AndroidManifest.xml:30:13-103
+89            android:exported="false" >
+89-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\alixc\.gradle\caches\transforms-3\4667a18ab3ef4a056861de611ceced91\transformed\transport-backend-cct-2.3.0\AndroidManifest.xml:31:13-37
+90            <meta-data
+90-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\alixc\.gradle\caches\transforms-3\4667a18ab3ef4a056861de611ceced91\transformed\transport-backend-cct-2.3.0\AndroidManifest.xml:32:13-34:39
+91                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+91-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\alixc\.gradle\caches\transforms-3\4667a18ab3ef4a056861de611ceced91\transformed\transport-backend-cct-2.3.0\AndroidManifest.xml:33:17-94
+92                android:value="cct" />
+92-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\alixc\.gradle\caches\transforms-3\4667a18ab3ef4a056861de611ceced91\transformed\transport-backend-cct-2.3.0\AndroidManifest.xml:34:17-36
+93        </service>
+94        <service
+94-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\alixc\.gradle\caches\transforms-3\725b5e01d1c3ca2ed7faafefe58d0134\transformed\transport-runtime-2.2.3\AndroidManifest.xml:26:9-30:19
+95            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+95-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\alixc\.gradle\caches\transforms-3\725b5e01d1c3ca2ed7faafefe58d0134\transformed\transport-runtime-2.2.3\AndroidManifest.xml:27:13-117
+96            android:exported="false"
+96-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\alixc\.gradle\caches\transforms-3\725b5e01d1c3ca2ed7faafefe58d0134\transformed\transport-runtime-2.2.3\AndroidManifest.xml:28:13-37
+97            android:permission="android.permission.BIND_JOB_SERVICE" >
+97-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\alixc\.gradle\caches\transforms-3\725b5e01d1c3ca2ed7faafefe58d0134\transformed\transport-runtime-2.2.3\AndroidManifest.xml:29:13-69
+98        </service>
+99
+100        <receiver
+100-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\alixc\.gradle\caches\transforms-3\725b5e01d1c3ca2ed7faafefe58d0134\transformed\transport-runtime-2.2.3\AndroidManifest.xml:32:9-34:40
+101            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+101-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\alixc\.gradle\caches\transforms-3\725b5e01d1c3ca2ed7faafefe58d0134\transformed\transport-runtime-2.2.3\AndroidManifest.xml:33:13-132
+102            android:exported="false" />
+102-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\alixc\.gradle\caches\transforms-3\725b5e01d1c3ca2ed7faafefe58d0134\transformed\transport-runtime-2.2.3\AndroidManifest.xml:34:13-37
+103        <receiver
+103-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\alixc\.gradle\caches\transforms-3\f260a44aa17873ed5aabf62addc802e4\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+104            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+104-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\alixc\.gradle\caches\transforms-3\f260a44aa17873ed5aabf62addc802e4\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+105            android:directBootAware="false"
+105-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\alixc\.gradle\caches\transforms-3\f260a44aa17873ed5aabf62addc802e4\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+106            android:enabled="true"
+106-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\alixc\.gradle\caches\transforms-3\f260a44aa17873ed5aabf62addc802e4\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+107            android:exported="true"
+107-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\alixc\.gradle\caches\transforms-3\f260a44aa17873ed5aabf62addc802e4\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+108            android:permission="android.permission.DUMP" >
+108-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\alixc\.gradle\caches\transforms-3\f260a44aa17873ed5aabf62addc802e4\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+109            <intent-filter>
+109-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\alixc\.gradle\caches\transforms-3\f260a44aa17873ed5aabf62addc802e4\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+110                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+110-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\alixc\.gradle\caches\transforms-3\f260a44aa17873ed5aabf62addc802e4\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+110-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\alixc\.gradle\caches\transforms-3\f260a44aa17873ed5aabf62addc802e4\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+111            </intent-filter>
+112            <intent-filter>
+112-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\alixc\.gradle\caches\transforms-3\f260a44aa17873ed5aabf62addc802e4\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+113                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+113-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\alixc\.gradle\caches\transforms-3\f260a44aa17873ed5aabf62addc802e4\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+113-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\alixc\.gradle\caches\transforms-3\f260a44aa17873ed5aabf62addc802e4\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+114            </intent-filter>
+115            <intent-filter>
+115-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\alixc\.gradle\caches\transforms-3\f260a44aa17873ed5aabf62addc802e4\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+116                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+116-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\alixc\.gradle\caches\transforms-3\f260a44aa17873ed5aabf62addc802e4\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+116-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\alixc\.gradle\caches\transforms-3\f260a44aa17873ed5aabf62addc802e4\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+117            </intent-filter>
+118            <intent-filter>
+118-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\alixc\.gradle\caches\transforms-3\f260a44aa17873ed5aabf62addc802e4\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+119                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+119-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\alixc\.gradle\caches\transforms-3\f260a44aa17873ed5aabf62addc802e4\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+119-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\alixc\.gradle\caches\transforms-3\f260a44aa17873ed5aabf62addc802e4\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+120            </intent-filter>
+121        </receiver>
+122    </application>
+123
+124</manifest>

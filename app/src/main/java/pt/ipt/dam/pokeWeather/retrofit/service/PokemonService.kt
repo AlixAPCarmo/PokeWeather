@@ -5,7 +5,6 @@ import retrofit2.Call
 import retrofit2.http.*
 
 interface PokemonService {
-
     @GET("api/v2/pokemon/{name}")
     fun getPokemon(
         @Path("name") name: String

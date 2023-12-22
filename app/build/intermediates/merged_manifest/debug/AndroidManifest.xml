@@ -7,11 +7,9 @@
     <uses-sdk
         android:minSdkVersion="27"
         android:targetSdkVersion="34" />
-
     <!-- Internet Permissions -->
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <!-- Location Permissions -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- Location Permissions -->
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
@@ -39,7 +37,11 @@
         android:testOnly="true"
         android:theme="@style/Theme.PokeWeather" >
         <activity
-            android:name="pt.ipt.dam.pokeWeather.ui.activity.PokeWeatherListActivity"
+            android:name="pt.ipt.dam.pokeWeather.ui.activity.RegisterActivity"
+            android:exported="false" />
+        <activity android:name="pt.ipt.dam.pokeWeather.ui.activity.PokeWeatherActivity" />
+        <activity
+            android:name="pt.ipt.dam.pokeWeather.ui.activity.LoginActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

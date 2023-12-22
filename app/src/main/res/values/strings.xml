@@ -2,5 +2,8 @@
     <string name="app_name">PokeWeather</string>
     <string name="temperature_text">Temperature: %1$.2f°C</string>
     <string name="localizacao">Localização --</string>
+    <string name="email_hint">Insira o seu Email</string>
+    <string name="password_hint">Insira a sua Password</string>
+    <string name="login_button">Entrar</string>
 
 </resources>

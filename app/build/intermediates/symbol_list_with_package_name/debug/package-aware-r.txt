@@ -3598,7 +3598,9 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
+id buttonLogin
 id buttonPanel
+id buttonRegister
 id cache_measures
 id callMeasure
 id cancel_button
@@ -3673,6 +3675,10 @@ id easeInOut
 id easeOut
 id east
 id edge
+id editTextEmail
+id editTextName
+id editTextPassword
+id editTextPhone
 id edit_query
 id edit_text_id
 id elastic
@@ -3747,6 +3753,7 @@ id linear
 id listMode
 id list_item
 id llWeatherInfo
+id loginContainer
 id m3_side_sheet
 id marquee
 id masked
@@ -4146,7 +4153,9 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_login
 layout activity_main
+layout activity_register
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -4303,6 +4312,7 @@ string common_google_play_services_wear_update_text
 string common_open_on_phone
 string common_signin_button_text
 string common_signin_button_text_long
+string email_hint
 string error_a11y_label
 string error_icon_content_description
 string exposed_dropdown_menu_content_description
@@ -4312,6 +4322,7 @@ string hide_bottom_view_on_scroll_behavior
 string icon_content_description
 string item_view_role_description
 string localizacao
+string login_button
 string m3_exceed_max_badge_text_suffix
 string m3_ref_typeface_brand_medium
 string m3_ref_typeface_brand_regular
@@ -4412,6 +4423,7 @@ string mtrl_switch_track_decoration_path
 string mtrl_switch_track_path
 string mtrl_timepicker_cancel
 string mtrl_timepicker_confirm
+string password_hint
 string password_toggle_content_description
 string path_password_eye
 string path_password_eye_mask_strike_through
