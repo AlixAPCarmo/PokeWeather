@@ -14,10 +14,11 @@ data class UserLoginRequest(
 
 
 data class UserLoginResponse(
-    val pessoaID: Int
+    val token: String,
+    val userName: String
 )
-
+/*
 data class UserDetails(
     val pessoaID: Int,
     val nome: String
-)
+)*/
