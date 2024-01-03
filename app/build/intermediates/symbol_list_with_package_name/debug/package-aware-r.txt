@@ -3361,6 +3361,10 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
+drawable baseline_add_24
+drawable baseline_arrow_back_24
+drawable baseline_arrow_drop_down_24
+drawable baseline_info_24
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -3395,6 +3399,8 @@ drawable design_password_eye
 drawable design_snackbar_background
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
+drawable gradient_bg
+drawable humidity
 drawable ic_arrow_back_black_24
 drawable ic_call_answer
 drawable ic_call_answer_low
@@ -3491,10 +3497,12 @@ drawable notify_panel_notification_icon_bg
 drawable places_autocomplete_toolbar_shadow
 drawable places_powered_by_google_dark
 drawable places_powered_by_google_light
+drawable pressure
 drawable quantum_ic_arrow_back_grey600_24
 drawable quantum_ic_clear_grey600_24
 drawable quantum_ic_cloud_off_vd_theme_24
 drawable quantum_ic_search_grey600_24
+drawable sensacao
 drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
@@ -3512,6 +3520,7 @@ id SHOW_PROGRESS
 id SYM
 id TOP_END
 id TOP_START
+id aboutUsbtn
 id accelerate
 id accessibility_action_clickable_span
 id accessibility_custom_action_0
@@ -3653,6 +3662,8 @@ id design_menu_item_action_area
 id design_menu_item_action_area_stub
 id design_menu_item_text
 id design_navigation_view
+id detailsContainer
+id devInfoContainer
 id dialog_button
 id dimensions
 id direct
@@ -3687,6 +3698,7 @@ id end
 id endToStart
 id enterAlways
 id enterAlwaysCollapsed
+id errorText
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -3730,7 +3742,10 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageContainer
 id imageView
+id imgAlix
+id imgAntonio
 id immediateStop
 id included
 id indeterminate
@@ -3738,6 +3753,7 @@ id info
 id invisible
 id inward
 id italic
+id itemListbtn
 id item_touch_helper_previous_elevation
 id jumpToEnd
 id jumpToStart
@@ -3752,9 +3768,10 @@ id line3
 id linear
 id listMode
 id list_item
-id llWeatherInfo
+id loader
 id loginContainer
 id m3_side_sheet
+id mainContainer
 id marquee
 id masked
 id match_constraint
@@ -3780,6 +3797,7 @@ id material_timepicker_ok_button
 id material_timepicker_view
 id material_value_index
 id matrix
+id menuContainer
 id message
 id middle
 id mini
@@ -3852,6 +3870,7 @@ id open_search_view_toolbar_container
 id outline
 id outward
 id overshoot
+id overviewContainer
 id packed
 id parallax
 id parent
@@ -3891,6 +3910,7 @@ id radio
 id ratio
 id rectangles
 id report_drawn
+id returnBtn
 id reverseSawtooth
 id right
 id rightToLeft
@@ -3955,6 +3975,7 @@ id startToEnd
 id startVertical
 id staticLayout
 id staticPostLayout
+id status
 id stop
 id stretch
 id submenuarrow
@@ -3993,6 +4014,8 @@ id textinput_helper_text
 id textinput_placeholder
 id textinput_prefix_text
 id textinput_suffix_text
+id textoAlix
+id textoAntonio
 id time
 id title
 id titleDividerNoCustom
@@ -4153,6 +4176,8 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_about_us
+layout activity_crud_list
 layout activity_login
 layout activity_main
 layout activity_register
@@ -4456,6 +4481,7 @@ style Animation_Material3_SideSheetDialog
 style Animation_Material3_SideSheetDialog_Left
 style Animation_Material3_SideSheetDialog_Right
 style Animation_MaterialComponents_BottomSheetDialog
+style AppTheme_NoActionBar
 style Base_AlertDialog_AppCompat
 style Base_AlertDialog_AppCompat_Light
 style Base_Animation_AppCompat_Dialog

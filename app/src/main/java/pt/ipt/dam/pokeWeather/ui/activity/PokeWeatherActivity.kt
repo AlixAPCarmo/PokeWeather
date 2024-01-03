@@ -1,10 +1,12 @@
 package pt.ipt.dam.pokeWeather.ui.activity
 
 import android.Manifest
+import android.annotation.SuppressLint
 import pt.ipt.dam.pokeWeather.model.WeatherResponse
 import pt.ipt.dam.pokeWeather.R
 
 import android.content.Context
+import android.content.Intent
 import android.content.pm.PackageManager
 import android.graphics.BitmapFactory
 import android.location.Location
@@ -15,6 +17,7 @@ import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
 import android.util.Log
+import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
 import android.widget.Toast
@@ -32,12 +35,32 @@ class PokeWeatherActivity : AppCompatActivity(), LocationListener {
 
     private lateinit var tvGpsLocation: TextView
     private val locationPermissionCode = 2
+    //places api key
+    //AIzaSyAGQwWNMkKqM-QEvsafZe6Ym6bpbm6E97w
+
+    @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         val userName = intent.getStringExtra("USER_NAME") ?: "Unknown User"
         title = "PokeWeather - $userName"
         getLocation()
+
+        val btnAboutUs = findViewById<Button>(R.id.aboutUsbtn)
+
+        btnAboutUs.setOnClickListener {
+            val intent = Intent(this, AboutUs::class.java)
+            startActivity(intent);
+            finish();
+        }
+
+        val btnItemList = findViewById<Button>(R.id.itemListbtn)
+
+        btnItemList.setOnClickListener {
+            val intent = Intent(this, CrudList::class.java)
+            startActivity(intent);
+            finish();
+        }
     }
 
     private fun getTemperature(lat: Double, long: Double) {
@@ -70,14 +93,16 @@ class PokeWeatherActivity : AppCompatActivity(), LocationListener {
                     val descTemp = response.body()?.weather?.first()?.description
 
                     //assign the views to the updates text values
-                    findViewById<TextView>(R.id.tempView).text = (" $temperatureCelsius ºC - $descTemp")
+                    findViewById<TextView>(R.id.tempView).text = (" $temperatureCelsius ºC")
+                    findViewById<TextView>(R.id.status).text = (" $descTemp")
+
                     tvGpsLocation = findViewById(R.id.textView)
                     tvGpsLocation.text = ("$local , $countryCode")
-                    findViewById<TextView>(R.id.tvFeelsLike).text = "Sensação Térmica: ${temperatureFeelsLike}°C"
+                    findViewById<TextView>(R.id.tvFeelsLike).text = "${temperatureFeelsLike}°C"
                     findViewById<TextView>(R.id.tvTempMin).text = "Temp. Mínima: ${tempMin}°C"
                     findViewById<TextView>(R.id.tvTempMax).text = "Temp. Máxima: ${tempMax}°C"
-                    findViewById<TextView>(R.id.tvPressure).text = "Pressão: ${response.body()?.main?.pressure} hPa"
-                    findViewById<TextView>(R.id.tvHumidity).text = "Humidade: ${response.body()?.main?.humidity}%"
+                    findViewById<TextView>(R.id.tvPressure).text = "${response.body()?.main?.pressure} hPa"
+                    findViewById<TextView>(R.id.tvHumidity).text = "${response.body()?.main?.humidity}%"
 
                     //console logs
                     Log.e("getTemperature", "$temperature")

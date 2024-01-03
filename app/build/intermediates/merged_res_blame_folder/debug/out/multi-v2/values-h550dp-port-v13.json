@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "pt.ipt.dam.pokeWeather.app-mergeDebugResources-35:/values-h550dp-port-v13/values-h550dp-port-v13.xml",
+            "outputFile": "pt.ipt.dam.pokeWeather.app-mergeDebugResources-34:/values-h550dp-port-v13/values-h550dp-port-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\alixc\\.gradle\\caches\\transforms-3\\3fce4424b8ed2121d53a471b70b2883e\\transformed\\material-1.10.0\\res\\values-h550dp-port-v13\\values-h550dp-port-v13.xml",
+                    "source": "C:\\Users\\aluno23321\\.gradle\\caches\\transforms-3\\a89ee0fd7ce8ec96bb025bff689dcb4d\\transformed\\material-1.10.0\\res\\values-h550dp-port-v13\\values-h550dp-port-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

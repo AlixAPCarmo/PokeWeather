@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "pt.ipt.dam.pokeWeather.app-mergeDebugResources-35:/values-hr/values-hr.xml",
+            "outputFile": "pt.ipt.dam.pokeWeather.app-mergeDebugResources-34:/values-hr/values-hr.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\alixc\\.gradle\\caches\\transforms-3\\99bc8ed953e037515b82b4494d900329\\transformed\\play-services-basement-18.0.0\\res\\values-hr\\values.xml",
+                    "source": "C:\\Users\\aluno23321\\.gradle\\caches\\transforms-3\\15886ec61c25bd23dd8ba429e80d40f7\\transformed\\play-services-basement-18.0.0\\res\\values-hr\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -21,24 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\alixc\\.gradle\\caches\\transforms-3\\02b1e09f27d52495eb1c957e9c33e730\\transformed\\places-3.3.0\\res\\values-hr\\values.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9,10,11",
-                        "startColumns": "0,0,0,0,0,0,0,0",
-                        "startOffsets": "184,264,328,422,494,541,605,693",
-                        "endColumns": "79,63,93,71,46,63,87,56",
-                        "endOffsets": "263,327,421,493,540,604,692,749"
-                    },
-                    "to": {
-                        "startLines": "127,128,129,130,131,132,133,134",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "11563,11647,11715,11813,11889,11940,12008,12100",
-                        "endColumns": "83,67,97,75,50,67,91,60",
-                        "endOffsets": "11642,11710,11808,11884,11935,12003,12095,12156"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\alixc\\.gradle\\caches\\transforms-3\\8435deef8c71521975816a218ebbd92c\\transformed\\core-1.13.0-alpha02\\res\\values-hr\\values-hr.xml",
+                    "source": "C:\\Users\\aluno23321\\.gradle\\caches\\transforms-3\\4453a39decbb00f1e970377d410fdb1d\\transformed\\core-1.13.0-alpha02\\res\\values-hr\\values-hr.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -55,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\alixc\\.gradle\\caches\\transforms-3\\d40d7eb4a3cc2054f4680f0cb941390e\\transformed\\play-services-base-18.0.1\\res\\values-hr\\values.xml",
+                    "source": "C:\\Users\\aluno23321\\.gradle\\caches\\transforms-3\\ca0187b5e83214fd371c428602c17bd0\\transformed\\play-services-base-18.0.1\\res\\values-hr\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -72,7 +55,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\alixc\\.gradle\\caches\\transforms-3\\3fce4424b8ed2121d53a471b70b2883e\\transformed\\material-1.10.0\\res\\values-hr\\values-hr.xml",
+                    "source": "C:\\Users\\aluno23321\\.gradle\\caches\\transforms-3\\a89ee0fd7ce8ec96bb025bff689dcb4d\\transformed\\material-1.10.0\\res\\values-hr\\values-hr.xml",
                     "from": {
                         "startLines": "2,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -91,7 +74,24 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\alixc\\.gradle\\caches\\transforms-3\\3f701edd2cea2a870623e264954f1f7f\\transformed\\appcompat-1.6.1\\res\\values-hr\\values-hr.xml",
+                    "source": "C:\\Users\\aluno23321\\.gradle\\caches\\transforms-3\\173b260b71f0293a8d8f22f22d573592\\transformed\\places-3.3.0\\res\\values-hr\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11",
+                        "startColumns": "0,0,0,0,0,0,0,0",
+                        "startOffsets": "184,264,328,422,494,541,605,693",
+                        "endColumns": "79,63,93,71,46,63,87,56",
+                        "endOffsets": "263,327,421,493,540,604,692,749"
+                    },
+                    "to": {
+                        "startLines": "127,128,129,130,131,132,133,134",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "11563,11647,11715,11813,11889,11940,12008,12100",
+                        "endColumns": "83,67,97,75,50,67,91,60",
+                        "endOffsets": "11642,11710,11808,11884,11935,12003,12095,12156"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\aluno23321\\.gradle\\caches\\transforms-3\\5822e80d6c04f3452bb416b417d19e5e\\transformed\\appcompat-1.6.1\\res\\values-hr\\values-hr.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

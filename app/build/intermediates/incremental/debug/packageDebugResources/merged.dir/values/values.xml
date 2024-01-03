@@ -13,6 +13,10 @@
     <string name="login_button">Entrar</string>
     <string name="password_hint">Insira a sua Password</string>
     <string name="temperature_text">Temperature: %1$.2f°C</string>
+    <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
     <style name="Theme.PokeWeather" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         
         <item name="colorPrimary">@color/purple_500</item>

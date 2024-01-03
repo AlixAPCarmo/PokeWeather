@@ -34,14 +34,21 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:testOnly="true"
-        android:theme="@style/Theme.PokeWeather" >
+        android:theme="@style/AppTheme.NoActionBar" >
         <activity
             android:name="pt.ipt.dam.pokeWeather.ui.activity.RegisterActivity"
             android:exported="false" />
-        <activity android:name="pt.ipt.dam.pokeWeather.ui.activity.PokeWeatherActivity" />
         <activity
             android:name="pt.ipt.dam.pokeWeather.ui.activity.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name="pt.ipt.dam.pokeWeather.ui.activity.AboutUs"
+            android:exported="false" />
+        <activity
+            android:name="pt.ipt.dam.pokeWeather.ui.activity.CrudList"
+            android:exported="false" />
+        <activity
+            android:name="pt.ipt.dam.pokeWeather.ui.activity.PokeWeatherActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
