@@ -8,7 +8,7 @@ import android.widget.Button
 import pt.ipt.dam.pokeWeather.R
 
 class AboutUs : AppCompatActivity() {
-    @SuppressLint("MissingInflatedId")
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_about_us)

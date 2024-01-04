@@ -17,8 +17,3 @@ data class UserLoginResponse(
     val token: String,
     val userName: String
 )
-/*
-data class UserDetails(
-    val pessoaID: Int,
-    val nome: String
-)*/

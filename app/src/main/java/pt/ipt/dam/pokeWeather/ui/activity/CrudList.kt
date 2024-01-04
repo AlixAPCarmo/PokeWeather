@@ -13,10 +13,11 @@ class CrudList : AppCompatActivity() {
 
         val btnReturn = findViewById<Button>(R.id.returnBtn)
 
-        btnReturn.setOnClickListener {
+        btnReturn?.setOnClickListener {
             val intent = Intent(this, PokeWeatherActivity::class.java)
-            startActivity(intent);
-            finish();
+            startActivity(intent)
+            finish()
         }
+
     }
 }

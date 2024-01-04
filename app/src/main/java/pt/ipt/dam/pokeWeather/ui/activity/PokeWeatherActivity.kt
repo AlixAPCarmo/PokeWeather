@@ -38,12 +38,9 @@ class PokeWeatherActivity : AppCompatActivity(), LocationListener {
     //places api key
     //AIzaSyAGQwWNMkKqM-QEvsafZe6Ym6bpbm6E97w
 
-    @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        val userName = intent.getStringExtra("USER_NAME") ?: "Unknown User"
-        title = "PokeWeather - $userName"
         getLocation()
 
         val btnAboutUs = findViewById<Button>(R.id.aboutUsbtn)

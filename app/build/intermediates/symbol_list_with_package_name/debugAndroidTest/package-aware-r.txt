@@ -1,3 +1,0 @@
-pt.ipt.dam.pokeWeather.test
-style WhiteBackgroundDialogTheme
-style WhiteBackgroundTheme

@@ -35,8 +35,6 @@ class RetrofitInitializer {
             .addConverterFactory( GsonConverterFactory.create(gson))
             .build()
 
-
-
     fun weatherService(): WeatherService = retrofitWeather.create(WeatherService::class.java)
     fun pokeService() = retrofitPoke.create(WeatherService::class.java)
     fun UserService(): UserService = retrofitUser.create(UserService::class.java)
