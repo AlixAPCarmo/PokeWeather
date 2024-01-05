@@ -4,8 +4,8 @@ data class WeatherResponse (
     val main: Main,
     val sys: Sys,
     val weather: List<Weather>,
-    val name: String
-
+    val name: String,
+    val coord: Coord,
 )
 
 data class Main(
@@ -18,10 +18,19 @@ data class Main(
 )
 
 data class Sys(
+    val type: Int,
+    val id: Long,
+    val sunrise: Long,
+    val sunset: Long,
     val country: String
 )
 
 data class Weather(
     val description: String,
     val icon: String
+)
+
+data class Coord(
+    val lon: Double,
+    val lat: Double
 )

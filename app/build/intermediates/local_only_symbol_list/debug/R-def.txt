@@ -38,6 +38,7 @@ id mainContainer
 id menuContainer
 id overviewContainer
 id returnBtn
+id searchBar
 id status
 id tempView
 id textView
@@ -48,6 +49,7 @@ id tvHumidity
 id tvPressure
 id tvTempMax
 id tvTempMin
+id weatherInfo
 layout activity_about_us
 layout activity_crud_list
 layout activity_login

@@ -3460,6 +3460,7 @@ int id scrollIndicatorDown 0x7f08018a
 int id scrollIndicatorUp 0x7f08018b
 int id scrollView 0x7f08018c
 int id scrollable 0x7f08018d
+int id searchBar 0x7f080210
 int id search_badge 0x7f08018e
 int id search_bar 0x7f08018f
 int id search_button 0x7f080190
@@ -3581,6 +3582,7 @@ int id view_tree_saved_state_registry_owner 0x7f080203
 int id view_tree_view_model_store_owner 0x7f080204
 int id visible 0x7f080205
 int id visible_removing_fragment_view_tag 0x7f080206
+int id weatherInfo 0x7f080211
 int id west 0x7f080207
 int id withText 0x7f080208
 int id with_icon 0x7f080209
