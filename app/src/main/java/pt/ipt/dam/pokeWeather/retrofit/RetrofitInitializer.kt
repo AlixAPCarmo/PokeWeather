@@ -2,6 +2,7 @@ package pt.ipt.dam.pokeWeather.retrofit
 import WeatherService
 import com.google.gson.Gson
 import com.google.gson.GsonBuilder
+import pt.ipt.dam.pokeWeather.retrofit.service.UserService
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
@@ -13,6 +14,7 @@ class RetrofitInitializer {
     //data/2.5/weather?lat={lat}&lon={lon}&appid=$weatherApiKey"
     private val pokeHost = "https://pokeapi.co/"
     //api/v2/pokemon/
+    private val userHost = "https://alix-dweb.azurewebsites.net/"
     private val gson: Gson = GsonBuilder().setLenient().create()
 
     private val retrofitWeather =
@@ -27,6 +29,13 @@ class RetrofitInitializer {
             .addConverterFactory( GsonConverterFactory.create(gson))
             .build()
 
+    private val retrofitUser =
+        Retrofit.Builder()
+            .baseUrl(userHost)
+            .addConverterFactory( GsonConverterFactory.create(gson))
+            .build()
+
     fun weatherService(): WeatherService = retrofitWeather.create(WeatherService::class.java)
     fun pokeService() = retrofitPoke.create(WeatherService::class.java)
+    fun UserService(): UserService = retrofitUser.create(UserService::class.java)
 }

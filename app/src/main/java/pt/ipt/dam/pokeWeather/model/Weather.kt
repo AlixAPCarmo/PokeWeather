@@ -1,7 +1,5 @@
 package pt.ipt.dam.pokeWeather.model
 
-import android.health.connect.datatypes.units.Pressure
-
 data class WeatherResponse (
     val main: Main,
     val sys: Sys,

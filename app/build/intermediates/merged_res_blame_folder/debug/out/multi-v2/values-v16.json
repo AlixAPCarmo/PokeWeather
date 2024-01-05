@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "pt.ipt.dam.pokeWeather.app-mergeDebugResources-35:/values-v16/values-v16.xml",
+            "outputFile": "pt.ipt.dam.pokeWeather.app-mergeDebugResources-30:/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\alixc\\.gradle\\caches\\transforms-3\\bed8ee4ddb81653f1cf13ad88c73b206\\transformed\\core-1.13.0-alpha02\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\alixc\\.gradle\\caches\\transforms-3\\b098d757f5f0a1f0a7b0af9dfd3fa027\\transformed\\core-1.13.0-alpha02\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\alixc\\.gradle\\caches\\transforms-3\\b69c95f9d125b83dbdbe3b3d209381c7\\transformed\\appcompat-1.6.1\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\alixc\\.gradle\\caches\\transforms-3\\53f6dcfc11134d5e2f4d79e412c9e106\\transformed\\appcompat-1.6.1\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
