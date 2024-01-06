@@ -7,86 +7,84 @@
     android:padding="25dp"
     android:background="@drawable/gradient_bg">
 
-    <!-- Button -->
+    <!-- Back Button -->
     <Button
         android:id="@+id/returnBtn"
         android:layout_width="50dp"
         android:layout_height="50dp"
+        android:layout_marginTop="16dp"
         android:background="@drawable/baseline_arrow_back_24"
         android:contentDescription="Back Button"/>
 
-
-    <!-- LinearLayout for ImageViews -->
+    <!-- Image Container -->
     <LinearLayout
         android:id="@+id/imageContainer"
-        android:layout_width="500dp"
+        android:layout_width="match_parent"
         android:layout_height="200dp"
         android:orientation="horizontal"
         android:layout_below="@id/returnBtn"
-        >
+        android:layout_marginTop="16dp"
+        android:elevation="4dp"> <!-- Adding elevation for a shadow effect -->
 
+        <!-- Developer Images with Shadows -->
         <ImageView
             android:id="@+id/imgAntonio"
-            android:layout_width="25dp"
-            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_height="175dp"
             android:layout_weight="1"
             android:layout_marginRight="10dp"
-            android:layout_alignTop="@id/returnBtn"
-            android:src="@drawable/humidity"/>
+            android:src="@drawable/antonio"
+            android:elevation="2dp" /> <!-- Adding elevation for a shadow effect -->
 
-        <!-- ImageView 2 -->
         <ImageView
             android:id="@+id/imgAlix"
-            android:layout_width="25dp"
-            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_height="175dp"
             android:layout_weight="1"
-            android:layout_alignTop="@id/returnBtn"
-            android:src="@drawable/humidity"/>
-
-
+            android:src="@drawable/alix"
+            android:elevation="2dp" /> <!-- Adding elevation for a shadow effect -->
     </LinearLayout>
 
+    <!-- Developer Info -->
     <LinearLayout
         android:id="@+id/devInfoContainer"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:layout_below="@id/imageContainer"
-        android:layout_marginTop="16dp">
+        android:layout_marginTop="16dp"
+        android:elevation="2dp"> <!-- Adding elevation for a shadow effect -->
 
-        <!-- ImageView 1 -->
+        <!-- Developer Names -->
         <TextView
             android:id="@+id/textoAntonio"
-            android:layout_width="25dp"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:layout_marginRight="16dp"
-            android:layout_alignTop="@id/returnBtn"
             android:textColor="@color/white"
+            android:textSize="24sp"
+            android:text="António Neves"/>
 
-            android:text="António Neves 23321"/>
-
-        <!-- ImageView 2 -->
         <TextView
             android:id="@+id/textoAlix"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:src="@drawable/humidity"
             android:layout_gravity="end"
             android:textColor="@color/white"
-
-            android:text="Alix Carmo 23324"/>
-        <Space
-            android:layout_width="wrap_content"
-            android:layout_height="50dp" />
+            android:textSize="24sp"
+            android:text="Alix Carmo "/>
     </LinearLayout>
 
-
+    <!-- App Description -->
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:layout_below="@id/devInfoContainer"
+        android:layout_marginTop="16dp"
+        android:elevation="2dp"
         android:textColor="@color/white"
-        android:text="At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat." />
+        android:textSize="18sp"
+        android:text="Bem-vindo ao PokeWeather, a tua aplicação meteorológica! Desenvolvida por António Neves e Alix Carmo como parte da Unidade Curricular de Desenvolvimento de Aplicações Móveis na Escola Superior de Tecnologia de Tomar, lecionada pelos docentes José Casimiro Pereira e Paulo Santos, durante o ano letivo 2023/24." />
 </RelativeLayout>

@@ -1,11 +1,11 @@
-#Sat Jan 06 17:56:38 WET 2024
-base.0=C\:\\Users\\aluno23321\\Documents\\GitHub\\pokeWeather\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
-base.1=C\:\\Users\\aluno23321\\Documents\\GitHub\\pokeWeather\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
-base.2=C\:\\Users\\aluno23321\\Documents\\GitHub\\pokeWeather\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\11\\classes.dex
-base.3=C\:\\Users\\aluno23321\\Documents\\GitHub\\pokeWeather\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\12\\classes.dex
-base.4=C\:\\Users\\aluno23321\\Documents\\GitHub\\pokeWeather\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\15\\classes.dex
-base.5=C\:\\Users\\aluno23321\\Documents\\GitHub\\pokeWeather\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\8\\classes.dex
-base.6=C\:\\Users\\aluno23321\\Documents\\GitHub\\pokeWeather\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
+#Sat Jan 06 18:45:17 WET 2024
+base.0=C\:\\Users\\Antonio\\Documents\\GitHub\\pokeWeather\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.1=C\:\\Users\\Antonio\\Documents\\GitHub\\pokeWeather\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.2=C\:\\Users\\Antonio\\Documents\\GitHub\\pokeWeather\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\11\\classes.dex
+base.3=C\:\\Users\\Antonio\\Documents\\GitHub\\pokeWeather\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\12\\classes.dex
+base.4=C\:\\Users\\Antonio\\Documents\\GitHub\\pokeWeather\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\15\\classes.dex
+base.5=C\:\\Users\\Antonio\\Documents\\GitHub\\pokeWeather\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\8\\classes.dex
+base.6=C\:\\Users\\Antonio\\Documents\\GitHub\\pokeWeather\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
 path.0=classes.dex
 path.1=0/classes.dex
 path.2=11/classes.dex

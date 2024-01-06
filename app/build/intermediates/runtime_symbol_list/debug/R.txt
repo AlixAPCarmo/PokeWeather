@@ -2943,6 +2943,8 @@ int drawable abc_textfield_search_activated_mtrl_alpha 0x7f070074
 int drawable abc_textfield_search_default_mtrl_alpha 0x7f070075
 int drawable abc_textfield_search_material 0x7f070076
 int drawable abc_vector_test 0x7f070077
+int drawable alix 0x7f0700f1
+int drawable antonio 0x7f0700f2
 int drawable avd_hide_password 0x7f070078
 int drawable avd_show_password 0x7f070079
 int drawable baseline_add_24 0x7f07007a
@@ -2986,6 +2988,7 @@ int drawable ic_mtrl_chip_checked_black 0x7f07009f
 int drawable ic_mtrl_chip_checked_circle 0x7f0700a0
 int drawable ic_mtrl_chip_close_circle 0x7f0700a1
 int drawable ic_search_black_24 0x7f0700a2
+int drawable listborderline 0x7f0700f3
 int drawable m3_appbar_background 0x7f0700a3
 int drawable m3_avd_hide_password 0x7f0700a4
 int drawable m3_avd_show_password 0x7f0700a5
@@ -3060,6 +3063,7 @@ int drawable notification_template_icon_low_bg 0x7f0700e9
 int drawable notification_tile_bg 0x7f0700ea
 int drawable notify_panel_notification_icon_bg 0x7f0700eb
 int drawable pressure 0x7f0700ec
+int drawable searchbar 0x7f0700f4
 int drawable sensacao 0x7f0700ed
 int drawable test_level_drawable 0x7f0700ee
 int drawable tooltip_frame_dark 0x7f0700ef
