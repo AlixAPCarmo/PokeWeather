@@ -38,25 +38,26 @@ class PokeWeatherActivity : AppCompatActivity(), LocationListener {
     //places api key
     //AIzaSyAGQwWNMkKqM-QEvsafZe6Ym6bpbm6E97w
 
+    private lateinit var btnAboutUs: Button
+    private lateinit var btnItemList: Button
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         getLocation()
 
-        val btnAboutUs = findViewById<Button>(R.id.aboutUsbtn)
-
+        btnAboutUs = findViewById(R.id.aboutUsbtn)
         btnAboutUs.setOnClickListener {
             val intent = Intent(this, AboutUs::class.java)
-            startActivity(intent);
-            finish();
+            startActivity(intent)
+            finish()
         }
 
-        val btnItemList = findViewById<Button>(R.id.itemListbtn)
-
+        btnItemList = findViewById(R.id.itemListbtn)
         btnItemList.setOnClickListener {
             val intent = Intent(this, CrudList::class.java)
-            startActivity(intent);
-            finish();
+            startActivity(intent)
+            finish()
         }
     }
 

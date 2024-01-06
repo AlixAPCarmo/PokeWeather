@@ -38,7 +38,7 @@
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_gravity="end"
-                android:background="@drawable/baseline_add_24"
+                android:background="@drawable/baseline_list_alt_24"
                 tools:ignore="SpeakableTextPresentCheck" />
         </LinearLayout>
 

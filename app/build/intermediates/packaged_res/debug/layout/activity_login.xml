@@ -5,7 +5,8 @@
     android:id="@+id/loginContainer"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.activity.LoginActivity">
+    tools:context=".ui.activity.LoginActivity"
+    android:background="@drawable/gradient_bg">
 
     <!-- Email Input -->
     <EditText

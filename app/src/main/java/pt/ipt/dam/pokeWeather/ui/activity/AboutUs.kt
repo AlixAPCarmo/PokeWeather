@@ -9,16 +9,16 @@ import pt.ipt.dam.pokeWeather.R
 
 class AboutUs : AppCompatActivity() {
 
+    private lateinit var btnReturn: Button
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_about_us)
 
-        val btnReturn = findViewById<Button>(R.id.returnBtn)
-
+        btnReturn = findViewById(R.id.returnBtn)
         btnReturn.setOnClickListener {
             val intent = Intent(this, PokeWeatherActivity::class.java)
-            startActivity(intent);
-            finish();
+            startActivity(intent)
+            finish()
         }
     }
 }

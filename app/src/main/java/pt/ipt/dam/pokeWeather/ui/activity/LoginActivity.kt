@@ -17,19 +17,23 @@ import retrofit2.Response
 
 
 class LoginActivity : AppCompatActivity() {
+
+    private lateinit var emailEditText: EditText
+    private lateinit var passwordEditText: EditText
+    private lateinit var loginButton: Button
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
 
-        val emailEditText = findViewById<EditText>(R.id.editTextEmail)
-        val passwordEditText = findViewById<EditText>(R.id.editTextPassword)
-        val loginButton = findViewById<Button>(R.id.buttonLogin)
+        emailEditText = findViewById(R.id.editTextEmail)
+        passwordEditText = findViewById(R.id.editTextPassword)
+        loginButton = findViewById(R.id.buttonLogin)
 
         if (isUserLoggedIn()) {
             navigateToPokeWeatherActivity()
-        }else {
+        } else {
             if (isTokenExpired()) {
-                Toast.makeText(this, "Your session has expired. Please log in again.", Toast.LENGTH_LONG).show();
+                Toast.makeText(this, "Your session has expired. Please log in again.", Toast.LENGTH_LONG).show()
             }
         }
 
