@@ -12,40 +12,27 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
-
         <Button
             android:id="@+id/returnBtn"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:background="@drawable/baseline_arrow_back_24"
             android:contentDescription="Back Button"/>
-
         <Space
             android:layout_width="20dp"
             android:layout_height="wrap_content" />
-
-        <!-- Adding a grey transparent background to the SearchView -->
-        <LinearLayout
+        <SearchView
+            android:id="@+id/searchBar"
             android:layout_width="350dp"
             android:layout_height="wrap_content"
-            android:background="@drawable/searchbar"
-            android:layout_gravity="center">
+            android:queryHint="(Cidade,Cod País)"
+            android:iconifiedByDefault="true"
+            android:layout_gravity="center"/>
 
-            <SearchView
-                android:id="@+id/searchBar"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:queryHint="(Cidade,Cod País)"
-                android:iconifiedByDefault="true"/>
-        </LinearLayout>
-
-        <!-- RecyclerView with border lines for each item -->
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/weatherList"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginTop="10dp"
-            android:divider="@drawable/listborderline"
-            android:dividerHeight="1dp"/>
+            android:layout_marginTop="10dp" />
     </LinearLayout>
 </RelativeLayout>
