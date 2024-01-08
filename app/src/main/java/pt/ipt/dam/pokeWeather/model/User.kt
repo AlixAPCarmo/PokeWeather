@@ -4,7 +4,6 @@ data class UserRegister(
     val Nome: String,
     val Email: String,
     val Password: String,
-    val Telefone: String,
 )
 
 data class UserLoginRequest(

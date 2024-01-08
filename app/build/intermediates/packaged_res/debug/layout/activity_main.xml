@@ -29,9 +29,15 @@
                 android:background="@drawable/baseline_info_24"
                 tools:ignore="SpeakableTextPresentCheck" />
 
-            <Space
-                android:layout_width="250dp"
-                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/btnLogout"
+                android:layout_width="57dp"
+                android:layout_height="117dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="16dp"
+                android:text="Logout" />
 
             <Button
                 android:id="@+id/itemListbtn"
@@ -40,6 +46,11 @@
                 android:layout_gravity="end"
                 android:background="@drawable/baseline_list_alt_24"
                 tools:ignore="SpeakableTextPresentCheck" />
+
+            <Space
+                android:layout_width="250dp"
+                android:layout_height="wrap_content" />
+
         </LinearLayout>
 
         <LinearLayout

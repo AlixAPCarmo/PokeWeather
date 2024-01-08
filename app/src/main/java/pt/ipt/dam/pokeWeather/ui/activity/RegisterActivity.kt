@@ -23,22 +23,20 @@ class RegisterActivity : AppCompatActivity() {
         val nameEditText = findViewById<EditText>(R.id.editTextName)
         val emailEditText = findViewById<EditText>(R.id.editTextEmail)
         val passwordEditText = findViewById<EditText>(R.id.editTextPassword)
-        val phoneEditText = findViewById<EditText>(R.id.editTextPhone)
 
         val registerButton = findViewById<Button>(R.id.buttonRegister)
         registerButton.setOnClickListener {
             val name = nameEditText.text.toString()
             val email = emailEditText.text.toString()
             val password = passwordEditText.text.toString()
-            val phone = phoneEditText.text.toString()
 
-            registerUser(name, email, password, phone)
+            registerUser(name, email, password)
         }
     }
 
-    private fun registerUser(name: String, email: String, password: String, phone: String) {
+    private fun registerUser(name: String, email: String, password: String) {
         val userService = RetrofitInitializer().UserService()
-        val userRegister = UserRegister(name, email, password, phone)
+        val userRegister = UserRegister(name, email, password)
 
         userService.registerUser(userRegister).enqueue(object : Callback<UserRegister> {
             override fun onResponse(call: Call<UserRegister>, response: Response<UserRegister>) {

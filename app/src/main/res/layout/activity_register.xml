@@ -18,14 +18,6 @@
         android:hint="Email" />
 
     <EditText
-        android:id="@+id/editTextPhone"
-        android:layout_width="380dp"
-        android:layout_height="65dp"
-        android:hint="Telefone" />
-
-    <!-- Add other EditTexts for phone, address, postal code, and city -->
-
-    <EditText
         android:id="@+id/editTextPassword"
         android:layout_width="380dp"
         android:layout_height="65dp"

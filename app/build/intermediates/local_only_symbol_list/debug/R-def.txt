@@ -19,12 +19,12 @@ drawable gradient_bg
 drawable humidity
 drawable ic_launcher_background
 drawable ic_launcher_foreground
-drawable listborderline
 drawable pressure
-drawable searchbar
 drawable sensacao
 id aboutUsbtn
 id btnDelete
+id btnLogout
+id btnRegister
 id btnSave
 id buttonLogin
 id buttonRegister
@@ -33,7 +33,6 @@ id devInfoContainer
 id editTextEmail
 id editTextName
 id editTextPassword
-id editTextPhone
 id editWeatherTextView
 id errorText
 id imageContainer
@@ -53,6 +52,7 @@ id tempView
 id textView
 id textoAlix
 id textoAntonio
+id tvContinueWithoutLogin
 id tvFeelsLike
 id tvHumidity
 id tvPressure

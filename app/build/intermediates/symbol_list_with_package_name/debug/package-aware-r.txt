@@ -2989,7 +2989,6 @@ drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_search_black_24
-drawable listborderline
 drawable m3_appbar_background
 drawable m3_avd_hide_password
 drawable m3_avd_show_password
@@ -3064,7 +3063,6 @@ drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable pressure
-drawable searchbar
 drawable sensacao
 drawable test_level_drawable
 drawable tooltip_frame_dark
@@ -3169,6 +3167,8 @@ id bounceBoth
 id bounceEnd
 id bounceStart
 id btnDelete
+id btnLogout
+id btnRegister
 id btnSave
 id buttonLogin
 id buttonPanel
@@ -3251,7 +3251,6 @@ id edge
 id editTextEmail
 id editTextName
 id editTextPassword
-id editTextPhone
 id editWeatherTextView
 id edit_query
 id edit_text_id
@@ -3573,6 +3572,7 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id tvContinueWithoutLogin
 id tvFeelsLike
 id tvHumidity
 id tvPressure

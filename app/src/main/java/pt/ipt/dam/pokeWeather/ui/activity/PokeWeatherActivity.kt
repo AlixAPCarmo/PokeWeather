@@ -17,11 +17,13 @@ import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
 import android.util.Log
+import android.view.View
 import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
 import android.widget.Toast
 import androidx.core.content.ContextCompat
+import com.google.android.material.snackbar.Snackbar
 
 import pt.ipt.dam.pokeWeather.retrofit.RetrofitInitializer
 import retrofit2.Call
@@ -40,6 +42,7 @@ class PokeWeatherActivity : AppCompatActivity(), LocationListener {
 
     private lateinit var btnAboutUs: Button
     private lateinit var btnItemList: Button
+    private lateinit var btnLogout:Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -55,21 +58,42 @@ class PokeWeatherActivity : AppCompatActivity(), LocationListener {
 
         btnItemList = findViewById(R.id.itemListbtn)
         btnItemList.setOnClickListener {
-            val intent = Intent(this, CrudList::class.java)
-            startActivity(intent)
-            finish()
+            if (!isUserLoggedIn()) {
+                Snackbar.make(it, "É necessário efetuar login para aceder a esta funcionalidade", Snackbar.LENGTH_LONG)
+                    .setAction("Login") {
+                        navigateToLoginActivity()
+                    }.show()
+            } else {
+                val intent = Intent(this, CrudList::class.java)
+                startActivity(intent)
+                finish()
+            }
+        }
+
+        btnLogout = findViewById(R.id.btnLogout)
+
+        btnLogout.text = if (isUserLoggedIn()) "Logout" else "Login"
+
+        btnLogout.setOnClickListener {
+            if (isUserLoggedIn()) {
+                logoutUser()
+            } else {
+                navigateToLoginActivity()
+            }
         }
     }
 
     private fun getTemperature(lat: Double, long: Double) {
-        //Log.e("gt coords", "$lat, $long")
+        // Log.e("gt coords", "$lat, $long")
         RetrofitInitializer().weatherService().getWeather(lat, long)
             .enqueue(object : Callback<WeatherResponse> {
                 override fun onResponse(
                     call: Call<WeatherResponse>,
                     response: Response<WeatherResponse>
                 ) {
-                    //get temp from api
+                    // Check if the user is logged in
+                    val isAuthenticated = isUserLoggedIn()
+                    // get temp from api
                     val temperature = response.body()?.main?.temp
                     // Convert from Kelvin to Celsius
                     val temperatureCelsius = temperature?.minus(273.15)?.roundToInt().toString()
@@ -77,32 +101,43 @@ class PokeWeatherActivity : AppCompatActivity(), LocationListener {
                     val tempMin = response.body()?.main?.temp_min?.minus(273.15)?.roundToInt().toString()
                     val tempMax = response.body()?.main?.temp_max?.minus(273.15)?.roundToInt().toString()
 
-                    //weather icon
+                    // weather icon
                     val iconTemp = response.body()?.weather?.last()?.icon.toString()
                     getWeatherImage(iconTemp)
 
-                    //get local name from api
+                    // get local name from api
                     val local = response.body()?.name
 
-                    //get country code from api
+                    // get country code from api
                     val countryCode = response.body()?.sys?.country
 
                     // weather description
                     val descTemp = response.body()?.weather?.first()?.description
 
-                    //assign the views to the updates text values
+                    // assign the views to the updates text values
                     findViewById<TextView>(R.id.tempView).text = (" $temperatureCelsius ºC")
                     findViewById<TextView>(R.id.status).text = (" $descTemp")
 
                     tvGpsLocation = findViewById(R.id.textView)
                     tvGpsLocation.text = ("$local , $countryCode")
-                    findViewById<TextView>(R.id.tvFeelsLike).text = "${temperatureFeelsLike}°C"
-                    findViewById<TextView>(R.id.tvTempMin).text = "Temp. Mínima: ${tempMin}°C"
-                    findViewById<TextView>(R.id.tvTempMax).text = "Temp. Máxima: ${tempMax}°C"
-                    findViewById<TextView>(R.id.tvPressure).text = "${response.body()?.main?.pressure} hPa"
-                    findViewById<TextView>(R.id.tvHumidity).text = "${response.body()?.main?.humidity}%"
+                    findViewById<TextView>(R.id.tvTempMin).text = "Temp. Mínima: $tempMin°C"
+                    findViewById<TextView>(R.id.tvTempMax).text = "Temp. Máxima: $tempMax°C"
 
-                    //console logs
+                    // Update UI based on user authentication
+                    findViewById<TextView>(R.id.tvFeelsLike).apply {
+                        visibility = View.VISIBLE
+                        text = if (isAuthenticated) "$temperatureFeelsLike°C" else "Login Necessário"
+                    }
+                    findViewById<TextView>(R.id.tvPressure).apply {
+                        visibility = View.VISIBLE
+                        text = if (isAuthenticated) "${response.body()?.main?.pressure} hPa" else "Login Necessário"
+                    }
+                    findViewById<TextView>(R.id.tvHumidity).apply {
+                        visibility = View.VISIBLE
+                        text = if (isAuthenticated) "${response.body()?.main?.humidity}%" else "Login Necessário"
+                    }
+
+                    // console logs
                     Log.e("getTemperature", "$temperature")
                     Log.e("getTemperature", "$temperatureCelsius")
                     Log.e("getTemperature", "$lat,$long")
@@ -113,6 +148,7 @@ class PokeWeatherActivity : AppCompatActivity(), LocationListener {
                 }
             })
     }
+
 
 
     //code for this function obtained at:
@@ -187,5 +223,30 @@ class PokeWeatherActivity : AppCompatActivity(), LocationListener {
         }
 
     }
+
+    private fun isUserLoggedIn(): Boolean {
+        val sharedPreferences = getSharedPreferences("MySharedPref", MODE_PRIVATE)
+        val token = sharedPreferences.getString("auth_token", "")
+        val expirationTime = sharedPreferences.getLong("token_expiration_time", 0)
+        val currentTime = System.currentTimeMillis()
+        return token?.isNotEmpty() == true && currentTime < expirationTime
+    }
+
+    private fun navigateToLoginActivity() {
+        val intent = Intent(this, LoginActivity::class.java)
+        startActivity(intent)
+        finish()
+    }
+
+    private fun logoutUser() {
+        val sharedPreferences = getSharedPreferences("MySharedPref", MODE_PRIVATE)
+        sharedPreferences.edit().remove("auth_token").remove("token_expiration_time").apply()
+
+        val intent = Intent(this, LoginActivity::class.java)
+        startActivity(intent)
+        finish()
+    }
+
+
 
 }

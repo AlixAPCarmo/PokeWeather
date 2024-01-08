@@ -4,6 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
+import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.auth0.android.jwt.JWT
@@ -21,6 +22,8 @@ class LoginActivity : AppCompatActivity() {
     private lateinit var emailEditText: EditText
     private lateinit var passwordEditText: EditText
     private lateinit var loginButton: Button
+    private lateinit var tvContinueWithoutLogin: TextView
+    private lateinit var btnRegister: Button
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
@@ -28,12 +31,14 @@ class LoginActivity : AppCompatActivity() {
         emailEditText = findViewById(R.id.editTextEmail)
         passwordEditText = findViewById(R.id.editTextPassword)
         loginButton = findViewById(R.id.buttonLogin)
+        tvContinueWithoutLogin = findViewById(R.id.tvContinueWithoutLogin)
+        btnRegister = findViewById(R.id.btnRegister)
 
         if (isUserLoggedIn()) {
             navigateToPokeWeatherActivity()
         } else {
             if (isTokenExpired()) {
-                Toast.makeText(this, "Your session has expired. Please log in again.", Toast.LENGTH_LONG).show()
+                Toast.makeText(this, "Sem sessão iniciada", Toast.LENGTH_LONG).show()
             }
         }
 
@@ -41,6 +46,16 @@ class LoginActivity : AppCompatActivity() {
             val email = emailEditText.text.toString().trim()
             val password = passwordEditText.text.toString().trim()
             loginUser(email, password)
+        }
+
+        tvContinueWithoutLogin.setOnClickListener {
+            navigateToPokeWeatherActivity()
+        }
+
+        btnRegister.setOnClickListener {
+            // Inicie a Activity de Registro aqui
+            val intent = Intent(this, RegisterActivity::class.java)
+            startActivity(intent)
         }
     }
 
@@ -59,10 +74,10 @@ class LoginActivity : AppCompatActivity() {
                             navigateToPokeWeatherActivity()
                         }
                     } else {
-                        val errorMessage = response.errorBody()?.string() ?: "Unknown error"
+                        val errorMessage = response.errorBody()?.string() ?: "Erro"
                         Toast.makeText(
                             this@LoginActivity,
-                            "Login failed - $errorMessage",
+                            "Login Falhou - $errorMessage",
                             Toast.LENGTH_LONG
                         ).show()
                     }
@@ -71,7 +86,7 @@ class LoginActivity : AppCompatActivity() {
                 override fun onFailure(call: Call<UserLoginResponse>, t: Throwable) {
                     Toast.makeText(
                         this@LoginActivity,
-                        "Login failed: ${t.localizedMessage}",
+                        "Login falhou: ${t.localizedMessage}",
                         Toast.LENGTH_LONG
                     ).show()
                 }

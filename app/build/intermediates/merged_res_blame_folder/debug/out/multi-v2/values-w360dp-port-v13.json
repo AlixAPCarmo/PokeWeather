@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "pt.ipt.dam.pokeWeather.app-mergeDebugResources-2:/values-w360dp-port-v13/values-w360dp-port-v13.xml",
+            "outputFile": "pt.ipt.dam.pokeWeather.app-mergeDebugResources-34:/values-w360dp-port-v13/values-w360dp-port-v13.xml",
             "map": [
                 {
-                    "source": "C:\\gradle\\bin\\caches\\transforms-3\\a89ee0fd7ce8ec96bb025bff689dcb4d\\transformed\\material-1.10.0\\res\\values-w360dp-port-v13\\values-w360dp-port-v13.xml",
+                    "source": "C:\\Users\\alixc\\.gradle\\caches\\transforms-3\\bef7436eef4a664ac726cabf2e97bc7f\\transformed\\material-1.10.0\\res\\values-w360dp-port-v13\\values-w360dp-port-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
