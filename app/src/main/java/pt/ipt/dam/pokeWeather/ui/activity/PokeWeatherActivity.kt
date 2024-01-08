@@ -192,7 +192,7 @@ class PokeWeatherActivity : AppCompatActivity(), LocationListener {
                 locationPermissionCode
             )
         }
-        locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, 5000, 5f, this)
+        locationManager.requestLocationUpdates(LocationManager.NETWORK_PROVIDER, 5000, 5f, this)
 
     }
 
