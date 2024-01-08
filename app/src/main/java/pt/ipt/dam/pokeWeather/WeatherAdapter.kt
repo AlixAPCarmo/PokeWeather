@@ -11,7 +11,6 @@ import android.widget.EditText
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import pt.ipt.dam.pokeWeather.R.layout
-import pt.ipt.dam.pokeWeather.model.WeatherItem
 
 class WeatherAdapter : RecyclerView.Adapter<WeatherAdapter.ViewHolder>() {
 

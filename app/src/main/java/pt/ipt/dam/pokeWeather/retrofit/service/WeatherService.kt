@@ -18,6 +18,7 @@ interface WeatherService {
     @GET("data/2.5/weather")
     fun getWeatherCity(
         @Query("q") query: String,
+        @Query("lang") lang: String = "pt",
         @Query("appid") apiKey: String = "621458b7064959935ab4b148a9f412c2"
     ): Call<WeatherResponse>
 }

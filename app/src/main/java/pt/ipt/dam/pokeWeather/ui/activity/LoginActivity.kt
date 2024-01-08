@@ -71,6 +71,7 @@ class LoginActivity : AppCompatActivity() {
                         val loginResponse = response.body()
                         loginResponse?.let {
                             saveAuthToken(it.token)
+                            saveUserNameFromJWT(it.token)
                             navigateToPokeWeatherActivity()
                         }
                     } else {
@@ -100,6 +101,15 @@ class LoginActivity : AppCompatActivity() {
         val editor = sharedPreferences.edit()
         editor.putString("auth_token", token)
         editor.putLong("token_expiration_time", expiration)
+        editor.apply()
+    }
+
+    private fun saveUserNameFromJWT(token: String) {
+        val jwt = JWT(token)
+        val uniqueName = jwt.getClaim("unique_name").asString()
+        val sharedPreferences = getSharedPreferences("MySharedPref", MODE_PRIVATE)
+        val editor = sharedPreferences.edit()
+        editor.putString("user_name", uniqueName)
         editor.apply()
     }
 
