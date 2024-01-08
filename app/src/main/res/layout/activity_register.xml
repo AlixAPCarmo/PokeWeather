@@ -69,7 +69,7 @@
         android:background="@drawable/rounded_corners"
         android:drawableLeft="@drawable/baseline_password_24"
         android:drawablePadding="5dp"
-        android:hint="Confirme a Palavra-Passe"
+        android:hint="Palavra-Passe"
         android:includeFontPadding="false"
         android:inputType="textPassword"
         android:paddingLeft="20dp"
@@ -94,7 +94,6 @@
         android:background="@drawable/rounded_corners"
         android:backgroundTint="@color/white"
         android:forceDarkAllowed="false"
-        android:onClick="transicaoLogin"
         android:text="Registar"
         android:textColor="#9599E2"
         android:textSize="25dp"
@@ -102,7 +101,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.506"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextPassword" />
 
     <Button
         android:id="@+id/buttonLogin"
@@ -114,7 +114,6 @@
         android:background="@drawable/rounded_corners"
         android:backgroundTint="@color/white"
         android:forceDarkAllowed="false"
-        android:onClick="transicaoLogin"
         android:text="Login"
         android:textColor="#9599E2"
         android:textSize="25dp"
@@ -122,7 +121,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.506"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonRegister" />
 
     <Button
         android:id="@+id/tvContinueWithoutLogin"
@@ -134,7 +134,6 @@
         android:background="@drawable/rounded_corners"
         android:backgroundTint="@color/white"
         android:forceDarkAllowed="false"
-        android:onClick="transicaoLogin"
         android:text="Continuar sem Login"
         android:textColor="#9599E2"
         android:textSize="25dp"
@@ -142,6 +141,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.506"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonLogin" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
