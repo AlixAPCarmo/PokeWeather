@@ -23,7 +23,7 @@ class LoginActivity : AppCompatActivity() {
     private lateinit var passwordEditText: EditText
     private lateinit var loginButton: Button
     private lateinit var tvContinueWithoutLogin: TextView
-    private lateinit var btnRegister: Button
+    private lateinit var btnRegister: TextView
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)

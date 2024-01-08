@@ -20,38 +20,31 @@
             android:id="@+id/menuContainer"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:orientation="vertical">
 
             <Button
                 android:id="@+id/aboutUsbtn"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
                 android:background="@drawable/baseline_info_24"
-                tools:ignore="SpeakableTextPresentCheck" />
-
-            <Button
-                android:id="@+id/btnLogout"
-                android:layout_width="57dp"
-                android:layout_height="117dp"
-                android:layout_alignParentEnd="true"
-                android:layout_alignParentBottom="true"
-                android:layout_marginEnd="16dp"
                 android:layout_marginBottom="16dp"
-                android:text="Logout" />
+                tools:ignore="SpeakableTextPresentCheck" />
 
             <Button
                 android:id="@+id/itemListbtn"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_gravity="end"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
                 android:background="@drawable/baseline_list_alt_24"
-                tools:ignore="SpeakableTextPresentCheck" />
+                tools:ignore="SpeakableTextPresentCheck"
+                android:layout_marginBottom="16dp"/>
 
-            <Space
-                android:layout_width="250dp"
-                android:layout_height="wrap_content" />
-
+            <Button
+                android:id="@+id/btnLogout"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:background="@drawable/baseline_logout_24"/>
         </LinearLayout>
+
 
         <LinearLayout
             android:id="@+id/overviewContainer"

@@ -13,13 +13,18 @@ drawable baseline_add_24
 drawable baseline_arrow_back_24
 drawable baseline_arrow_drop_down_24
 drawable baseline_delete_24
+drawable baseline_email_24
 drawable baseline_info_24
 drawable baseline_list_alt_24
+drawable baseline_logout_24
+drawable baseline_password_24
+drawable baseline_person_24
 drawable gradient_bg
 drawable humidity
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable pressure
+drawable rounded_corners
 drawable sensacao
 id aboutUsbtn
 id btnDelete
@@ -41,7 +46,7 @@ id imgAlix
 id imgAntonio
 id itemListbtn
 id loader
-id loginContainer
+id loginLayout
 id mainContainer
 id menuContainer
 id overviewContainer

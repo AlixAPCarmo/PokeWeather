@@ -72,8 +72,6 @@ class PokeWeatherActivity : AppCompatActivity(), LocationListener {
 
         btnLogout = findViewById(R.id.btnLogout)
 
-        btnLogout.text = if (isUserLoggedIn()) "Logout" else "Login"
-
         btnLogout.setOnClickListener {
             if (isUserLoggedIn()) {
                 logoutUser()
