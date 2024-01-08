@@ -1,162 +1,166 @@
 [
     {
-        "merged": "pt.ipt.dam.pokeWeather.app-merged_res-36:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "pt.ipt.dam.pokeWeather.app-main-38:/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\alixc\\.gradle\\daemon\\8.5\\pt.ipt.dam.pokeWeather.app-merged_res-36:\\drawable_antonio.png.flat",
+        "source": "C:\\Users\\alixc\\.gradle\\daemon\\8.5\\pt.ipt.dam.pokeWeather.app-main-38:\\drawable\\antonio.png"
     },
     {
-        "merged": "pt.ipt.dam.pokeWeather.app-merged_res-36:/drawable_pressure.png.flat",
-        "source": "pt.ipt.dam.pokeWeather.app-main-38:/drawable/pressure.png"
+        "merged": "C:\\Users\\alixc\\.gradle\\daemon\\8.5\\pt.ipt.dam.pokeWeather.app-merged_res-36:\\drawable_rounded_corners.xml.flat",
+        "source": "C:\\Users\\alixc\\.gradle\\daemon\\8.5\\pt.ipt.dam.pokeWeather.app-main-38:\\drawable\\rounded_corners.xml"
     },
     {
-        "merged": "pt.ipt.dam.pokeWeather.app-merged_res-36:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "pt.ipt.dam.pokeWeather.app-main-38:/mipmap-mdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\alixc\\.gradle\\daemon\\8.5\\pt.ipt.dam.pokeWeather.app-merged_res-36:\\drawable_alix.png.flat",
+        "source": "C:\\Users\\alixc\\.gradle\\daemon\\8.5\\pt.ipt.dam.pokeWeather.app-main-38:\\drawable\\alix.png"
     },
     {
-        "merged": "pt.ipt.dam.pokeWeather.app-merged_res-36:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "pt.ipt.dam.pokeWeather.app-main-38:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\alixc\\.gradle\\daemon\\8.5\\pt.ipt.dam.pokeWeather.app-merged_res-36:\\drawable_baseline_arrow_back_24.xml.flat",
+        "source": "C:\\Users\\alixc\\.gradle\\daemon\\8.5\\pt.ipt.dam.pokeWeather.app-main-38:\\drawable\\baseline_arrow_back_24.xml"
     },
     {
-        "merged": "pt.ipt.dam.pokeWeather.app-merged_res-36:/layout_activity_register.xml.flat",
-        "source": "pt.ipt.dam.pokeWeather.app-main-38:/layout/activity_register.xml"
+        "merged": "C:\\Users\\alixc\\.gradle\\daemon\\8.5\\pt.ipt.dam.pokeWeather.app-merged_res-36:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\alixc\\.gradle\\daemon\\8.5\\pt.ipt.dam.pokeWeather.app-main-38:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "pt.ipt.dam.pokeWeather.app-merged_res-36:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "pt.ipt.dam.pokeWeather.app-main-38:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\alixc\\.gradle\\daemon\\8.5\\pt.ipt.dam.pokeWeather.app-merged_res-36:\\drawable_baseline_info_24.xml.flat",
+        "source": "C:\\Users\\alixc\\.gradle\\daemon\\8.5\\pt.ipt.dam.pokeWeather.app-main-38:\\drawable\\baseline_info_24.xml"
     },
     {
-        "merged": "pt.ipt.dam.pokeWeather.app-merged_res-36:/xml_data_extraction_rules.xml.flat",
-        "source": "pt.ipt.dam.pokeWeather.app-main-38:/xml/data_extraction_rules.xml"
+        "merged": "C:\\Users\\alixc\\.gradle\\daemon\\8.5\\pt.ipt.dam.pokeWeather.app-merged_res-36:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\alixc\\.gradle\\daemon\\8.5\\pt.ipt.dam.pokeWeather.app-main-38:\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
-        "merged": "pt.ipt.dam.pokeWeather.app-merged_res-36:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "pt.ipt.dam.pokeWeather.app-main-38:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\alixc\\.gradle\\daemon\\8.5\\pt.ipt.dam.pokeWeather.app-merged_res-36:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\alixc\\.gradle\\daemon\\8.5\\pt.ipt.dam.pokeWeather.app-main-38:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "pt.ipt.dam.pokeWeather.app-merged_res-36:/drawable_ic_launcher_background.xml.flat",
-        "source": "pt.ipt.dam.pokeWeather.app-main-38:/drawable/ic_launcher_background.xml"
+        "merged": "C:\\Users\\alixc\\.gradle\\daemon\\8.5\\pt.ipt.dam.pokeWeather.app-merged_res-36:\\layout_activity_about_us.xml.flat",
+        "source": "C:\\Users\\alixc\\.gradle\\daemon\\8.5\\pt.ipt.dam.pokeWeather.app-main-38:\\layout\\activity_about_us.xml"
     },
     {
-        "merged": "pt.ipt.dam.pokeWeather.app-merged_res-36:/drawable_gradient_bg.xml.flat",
-        "source": "pt.ipt.dam.pokeWeather.app-main-38:/drawable/gradient_bg.xml"
+        "merged": "C:\\Users\\alixc\\.gradle\\daemon\\8.5\\pt.ipt.dam.pokeWeather.app-merged_res-36:\\drawable_baseline_person_24.xml.flat",
+        "source": "C:\\Users\\alixc\\.gradle\\daemon\\8.5\\pt.ipt.dam.pokeWeather.app-main-38:\\drawable\\baseline_person_24.xml"
     },
     {
-        "merged": "pt.ipt.dam.pokeWeather.app-merged_res-36:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "pt.ipt.dam.pokeWeather.app-main-38:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "C:\\Users\\alixc\\.gradle\\daemon\\8.5\\pt.ipt.dam.pokeWeather.app-merged_res-36:\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\alixc\\.gradle\\daemon\\8.5\\pt.ipt.dam.pokeWeather.app-main-38:\\layout\\activity_login.xml"
     },
     {
-        "merged": "pt.ipt.dam.pokeWeather.app-merged_res-36:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "pt.ipt.dam.pokeWeather.app-main-38:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\alixc\\.gradle\\daemon\\8.5\\pt.ipt.dam.pokeWeather.app-merged_res-36:\\drawable_sensacao.png.flat",
+        "source": "C:\\Users\\alixc\\.gradle\\daemon\\8.5\\pt.ipt.dam.pokeWeather.app-main-38:\\drawable\\sensacao.png"
     },
     {
-        "merged": "pt.ipt.dam.pokeWeather.app-merged_res-36:/drawable_baseline_email_24.xml.flat",
-        "source": "pt.ipt.dam.pokeWeather.app-main-38:/drawable/baseline_email_24.xml"
+        "merged": "C:\\Users\\alixc\\.gradle\\daemon\\8.5\\pt.ipt.dam.pokeWeather.app-merged_res-36:\\drawable_baseline_add_24.xml.flat",
+        "source": "C:\\Users\\alixc\\.gradle\\daemon\\8.5\\pt.ipt.dam.pokeWeather.app-main-38:\\drawable\\baseline_add_24.xml"
     },
     {
-        "merged": "pt.ipt.dam.pokeWeather.app-merged_res-36:/drawable_baseline_arrow_back_24.xml.flat",
-        "source": "pt.ipt.dam.pokeWeather.app-main-38:/drawable/baseline_arrow_back_24.xml"
+        "merged": "C:\\Users\\alixc\\.gradle\\daemon\\8.5\\pt.ipt.dam.pokeWeather.app-merged_res-36:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\alixc\\.gradle\\daemon\\8.5\\pt.ipt.dam.pokeWeather.app-main-38:\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "pt.ipt.dam.pokeWeather.app-merged_res-36:/drawable_rounded_corners.xml.flat",
-        "source": "pt.ipt.dam.pokeWeather.app-main-38:/drawable/rounded_corners.xml"
+        "merged": "C:\\Users\\alixc\\.gradle\\daemon\\8.5\\pt.ipt.dam.pokeWeather.app-merged_res-36:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\alixc\\.gradle\\daemon\\8.5\\pt.ipt.dam.pokeWeather.app-main-38:\\xml\\backup_rules.xml"
     },
     {
-        "merged": "pt.ipt.dam.pokeWeather.app-merged_res-36:/layout_activity_main.xml.flat",
-        "source": "pt.ipt.dam.pokeWeather.app-main-38:/layout/activity_main.xml"
+        "merged": "C:\\Users\\alixc\\.gradle\\daemon\\8.5\\pt.ipt.dam.pokeWeather.app-merged_res-36:\\layout_activity_register.xml.flat",
+        "source": "C:\\Users\\alixc\\.gradle\\daemon\\8.5\\pt.ipt.dam.pokeWeather.app-main-38:\\layout\\activity_register.xml"
     },
     {
-        "merged": "pt.ipt.dam.pokeWeather.app-merged_res-36:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "pt.ipt.dam.pokeWeather.app-main-38:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "C:\\Users\\alixc\\.gradle\\daemon\\8.5\\pt.ipt.dam.pokeWeather.app-merged_res-36:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\alixc\\.gradle\\daemon\\8.5\\pt.ipt.dam.pokeWeather.app-main-38:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "pt.ipt.dam.pokeWeather.app-merged_res-36:/drawable_alix.png.flat",
-        "source": "pt.ipt.dam.pokeWeather.app-main-38:/drawable/alix.png"
+        "merged": "C:\\Users\\alixc\\.gradle\\daemon\\8.5\\pt.ipt.dam.pokeWeather.app-merged_res-36:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\alixc\\.gradle\\daemon\\8.5\\pt.ipt.dam.pokeWeather.app-main-38:\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "pt.ipt.dam.pokeWeather.app-merged_res-36:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "pt.ipt.dam.pokeWeather.app-main-38:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\alixc\\.gradle\\daemon\\8.5\\pt.ipt.dam.pokeWeather.app-merged_res-36:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\alixc\\.gradle\\daemon\\8.5\\pt.ipt.dam.pokeWeather.app-main-38:\\layout\\activity_main.xml"
     },
     {
-        "merged": "pt.ipt.dam.pokeWeather.app-merged_res-36:/xml_backup_rules.xml.flat",
-        "source": "pt.ipt.dam.pokeWeather.app-main-38:/xml/backup_rules.xml"
+        "merged": "C:\\Users\\alixc\\.gradle\\daemon\\8.5\\pt.ipt.dam.pokeWeather.app-merged_res-36:\\drawable_humidity.png.flat",
+        "source": "C:\\Users\\alixc\\.gradle\\daemon\\8.5\\pt.ipt.dam.pokeWeather.app-main-38:\\drawable\\humidity.png"
     },
     {
-        "merged": "pt.ipt.dam.pokeWeather.app-merged_res-36:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "pt.ipt.dam.pokeWeather.app-main-38:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\alixc\\.gradle\\daemon\\8.5\\pt.ipt.dam.pokeWeather.app-merged_res-36:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\alixc\\.gradle\\daemon\\8.5\\pt.ipt.dam.pokeWeather.app-main-38:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "pt.ipt.dam.pokeWeather.app-merged_res-36:/drawable_baseline_delete_24.xml.flat",
-        "source": "pt.ipt.dam.pokeWeather.app-main-38:/drawable/baseline_delete_24.xml"
+        "merged": "C:\\Users\\alixc\\.gradle\\daemon\\8.5\\pt.ipt.dam.pokeWeather.app-merged_res-36:\\drawable_baseline_email_24.xml.flat",
+        "source": "C:\\Users\\alixc\\.gradle\\daemon\\8.5\\pt.ipt.dam.pokeWeather.app-main-38:\\drawable\\baseline_email_24.xml"
     },
     {
-        "merged": "pt.ipt.dam.pokeWeather.app-merged_res-36:/drawable_baseline_logout_24.xml.flat",
-        "source": "pt.ipt.dam.pokeWeather.app-main-38:/drawable/baseline_logout_24.xml"
+        "merged": "C:\\Users\\alixc\\.gradle\\daemon\\8.5\\pt.ipt.dam.pokeWeather.app-merged_res-36:\\drawable_baseline_delete_24.xml.flat",
+        "source": "C:\\Users\\alixc\\.gradle\\daemon\\8.5\\pt.ipt.dam.pokeWeather.app-main-38:\\drawable\\baseline_delete_24.xml"
     },
     {
-        "merged": "pt.ipt.dam.pokeWeather.app-merged_res-36:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "pt.ipt.dam.pokeWeather.app-main-38:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\alixc\\.gradle\\daemon\\8.5\\pt.ipt.dam.pokeWeather.app-merged_res-36:\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\alixc\\.gradle\\daemon\\8.5\\pt.ipt.dam.pokeWeather.app-main-38:\\drawable-v24\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "pt.ipt.dam.pokeWeather.app-merged_res-36:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "pt.ipt.dam.pokeWeather.app-main-38:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\alixc\\.gradle\\daemon\\8.5\\pt.ipt.dam.pokeWeather.app-merged_res-36:\\drawable_baseline_arrow_drop_down_24.xml.flat",
+        "source": "C:\\Users\\alixc\\.gradle\\daemon\\8.5\\pt.ipt.dam.pokeWeather.app-main-38:\\drawable\\baseline_arrow_drop_down_24.xml"
     },
     {
-        "merged": "pt.ipt.dam.pokeWeather.app-merged_res-36:/layout_weather_item.xml.flat",
-        "source": "pt.ipt.dam.pokeWeather.app-main-38:/layout/weather_item.xml"
+        "merged": "C:\\Users\\alixc\\.gradle\\daemon\\8.5\\pt.ipt.dam.pokeWeather.app-merged_res-36:\\layout_weather_item.xml.flat",
+        "source": "C:\\Users\\alixc\\.gradle\\daemon\\8.5\\pt.ipt.dam.pokeWeather.app-main-38:\\layout\\weather_item.xml"
     },
     {
-        "merged": "pt.ipt.dam.pokeWeather.app-merged_res-36:/drawable_baseline_arrow_drop_down_24.xml.flat",
-        "source": "pt.ipt.dam.pokeWeather.app-main-38:/drawable/baseline_arrow_drop_down_24.xml"
+        "merged": "C:\\Users\\alixc\\.gradle\\daemon\\8.5\\pt.ipt.dam.pokeWeather.app-merged_res-36:\\drawable_baseline_logout_24.xml.flat",
+        "source": "C:\\Users\\alixc\\.gradle\\daemon\\8.5\\pt.ipt.dam.pokeWeather.app-main-38:\\drawable\\baseline_logout_24.xml"
     },
     {
-        "merged": "pt.ipt.dam.pokeWeather.app-merged_res-36:/layout_activity_about_us.xml.flat",
-        "source": "pt.ipt.dam.pokeWeather.app-main-38:/layout/activity_about_us.xml"
+        "merged": "C:\\Users\\alixc\\.gradle\\daemon\\8.5\\pt.ipt.dam.pokeWeather.app-merged_res-36:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\alixc\\.gradle\\daemon\\8.5\\pt.ipt.dam.pokeWeather.app-main-38:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "pt.ipt.dam.pokeWeather.app-merged_res-36:/drawable_baseline_add_24.xml.flat",
-        "source": "pt.ipt.dam.pokeWeather.app-main-38:/drawable/baseline_add_24.xml"
+        "merged": "C:\\Users\\alixc\\.gradle\\daemon\\8.5\\pt.ipt.dam.pokeWeather.app-merged_res-36:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\alixc\\.gradle\\daemon\\8.5\\pt.ipt.dam.pokeWeather.app-main-38:\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "pt.ipt.dam.pokeWeather.app-merged_res-36:/drawable_baseline_person_24.xml.flat",
-        "source": "pt.ipt.dam.pokeWeather.app-main-38:/drawable/baseline_person_24.xml"
+        "merged": "C:\\Users\\alixc\\.gradle\\daemon\\8.5\\pt.ipt.dam.pokeWeather.app-merged_res-36:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\alixc\\.gradle\\daemon\\8.5\\pt.ipt.dam.pokeWeather.app-main-38:\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
-        "merged": "pt.ipt.dam.pokeWeather.app-merged_res-36:/layout_activity_login.xml.flat",
-        "source": "pt.ipt.dam.pokeWeather.app-main-38:/layout/activity_login.xml"
+        "merged": "C:\\Users\\alixc\\.gradle\\daemon\\8.5\\pt.ipt.dam.pokeWeather.app-merged_res-36:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\alixc\\.gradle\\daemon\\8.5\\pt.ipt.dam.pokeWeather.app-main-38:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "pt.ipt.dam.pokeWeather.app-merged_res-36:/drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "pt.ipt.dam.pokeWeather.app-main-38:/drawable-v24/ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\alixc\\.gradle\\daemon\\8.5\\pt.ipt.dam.pokeWeather.app-merged_res-36:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\alixc\\.gradle\\daemon\\8.5\\pt.ipt.dam.pokeWeather.app-main-38:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "pt.ipt.dam.pokeWeather.app-merged_res-36:/drawable_humidity.png.flat",
-        "source": "pt.ipt.dam.pokeWeather.app-main-38:/drawable/humidity.png"
+        "merged": "C:\\Users\\alixc\\.gradle\\daemon\\8.5\\pt.ipt.dam.pokeWeather.app-merged_res-36:\\drawable_baseline_list_alt_24.xml.flat",
+        "source": "C:\\Users\\alixc\\.gradle\\daemon\\8.5\\pt.ipt.dam.pokeWeather.app-main-38:\\drawable\\baseline_list_alt_24.xml"
     },
     {
-        "merged": "pt.ipt.dam.pokeWeather.app-merged_res-36:/drawable_baseline_info_24.xml.flat",
-        "source": "pt.ipt.dam.pokeWeather.app-main-38:/drawable/baseline_info_24.xml"
+        "merged": "C:\\Users\\alixc\\.gradle\\daemon\\8.5\\pt.ipt.dam.pokeWeather.app-merged_res-36:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\alixc\\.gradle\\daemon\\8.5\\pt.ipt.dam.pokeWeather.app-main-38:\\xml\\data_extraction_rules.xml"
     },
     {
-        "merged": "pt.ipt.dam.pokeWeather.app-merged_res-36:/drawable_antonio.png.flat",
-        "source": "pt.ipt.dam.pokeWeather.app-main-38:/drawable/antonio.png"
+        "merged": "C:\\Users\\alixc\\.gradle\\daemon\\8.5\\pt.ipt.dam.pokeWeather.app-merged_res-36:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\alixc\\.gradle\\daemon\\8.5\\pt.ipt.dam.pokeWeather.app-main-38:\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "pt.ipt.dam.pokeWeather.app-merged_res-36:/drawable_baseline_list_alt_24.xml.flat",
-        "source": "pt.ipt.dam.pokeWeather.app-main-38:/drawable/baseline_list_alt_24.xml"
+        "merged": "C:\\Users\\alixc\\.gradle\\daemon\\8.5\\pt.ipt.dam.pokeWeather.app-merged_res-36:\\drawable_gradient_bg.xml.flat",
+        "source": "C:\\Users\\alixc\\.gradle\\daemon\\8.5\\pt.ipt.dam.pokeWeather.app-main-38:\\drawable\\gradient_bg.xml"
     },
     {
-        "merged": "pt.ipt.dam.pokeWeather.app-merged_res-36:/drawable_baseline_password_24.xml.flat",
-        "source": "pt.ipt.dam.pokeWeather.app-main-38:/drawable/baseline_password_24.xml"
+        "merged": "C:\\Users\\alixc\\.gradle\\daemon\\8.5\\pt.ipt.dam.pokeWeather.app-merged_res-36:\\layout_activity_crud_list.xml.flat",
+        "source": "C:\\Users\\alixc\\.gradle\\daemon\\8.5\\pt.ipt.dam.pokeWeather.app-main-38:\\layout\\activity_crud_list.xml"
     },
     {
-        "merged": "pt.ipt.dam.pokeWeather.app-merged_res-36:/mipmap-anydpi-v33_ic_launcher.xml.flat",
-        "source": "pt.ipt.dam.pokeWeather.app-main-38:/mipmap-anydpi-v33/ic_launcher.xml"
+        "merged": "C:\\Users\\alixc\\.gradle\\daemon\\8.5\\pt.ipt.dam.pokeWeather.app-merged_res-36:\\mipmap-anydpi-v33_ic_launcher.xml.flat",
+        "source": "C:\\Users\\alixc\\.gradle\\daemon\\8.5\\pt.ipt.dam.pokeWeather.app-main-38:\\mipmap-anydpi-v33\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\alixc\\.gradle\\daemon\\8.5\\pt.ipt.dam.pokeWeather.app-merged_res-36:\\drawable_baseline_password_24.xml.flat",
+        "source": "C:\\Users\\alixc\\.gradle\\daemon\\8.5\\pt.ipt.dam.pokeWeather.app-main-38:\\drawable\\baseline_password_24.xml"
     },
     {
         "merged": "pt.ipt.dam.pokeWeather.app-merged_res-36:/layout_activity_crud_list.xml.flat",
         "source": "pt.ipt.dam.pokeWeather.app-main-38:/layout/activity_crud_list.xml"
     },
     {
-        "merged": "pt.ipt.dam.pokeWeather.app-merged_res-36:/drawable_sensacao.png.flat",
-        "source": "pt.ipt.dam.pokeWeather.app-main-38:/drawable/sensacao.png"
+        "merged": "C:\\Users\\alixc\\.gradle\\daemon\\8.5\\pt.ipt.dam.pokeWeather.app-merged_res-36:\\drawable_pressure.png.flat",
+        "source": "C:\\Users\\alixc\\.gradle\\daemon\\8.5\\pt.ipt.dam.pokeWeather.app-main-38:\\drawable\\pressure.png"
     }
 ]
