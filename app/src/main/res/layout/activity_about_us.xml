@@ -23,8 +23,7 @@
         android:layout_height="200dp"
         android:orientation="horizontal"
         android:layout_below="@id/returnBtn"
-        android:layout_marginTop="16dp"
-        android:elevation="4dp"> <!-- Adding elevation for a shadow effect -->
+        android:layout_marginTop="16dp">
 
         <!-- Developer Images with Shadows -->
         <ImageView
@@ -33,16 +32,14 @@
             android:layout_height="175dp"
             android:layout_weight="1"
             android:layout_marginRight="10dp"
-            android:src="@drawable/antonio"
-            android:elevation="2dp" /> <!-- Adding elevation for a shadow effect -->
+            android:src="@drawable/antonio" />
 
         <ImageView
             android:id="@+id/imgAlix"
             android:layout_width="0dp"
             android:layout_height="175dp"
             android:layout_weight="1"
-            android:src="@drawable/alix"
-            android:elevation="2dp" /> <!-- Adding elevation for a shadow effect -->
+            android:src="@drawable/alix" />
     </LinearLayout>
 
     <!-- Developer Info -->
@@ -52,8 +49,7 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:layout_below="@id/imageContainer"
-        android:layout_marginTop="16dp"
-        android:elevation="2dp"> <!-- Adding elevation for a shadow effect -->
+        android:layout_marginTop="16dp">
 
         <!-- Developer Names -->
         <TextView
@@ -82,9 +78,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/devInfoContainer"
-        android:layout_marginTop="16dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
         android:elevation="2dp"
+        android:text="Bem-vindo ao PokeWeather, a tua aplicação meteorológica! Desenvolvida por António Neves e Alix Carmo como parte da Unidade Curricular de Desenvolvimento de Aplicações Móveis na Escola Superior de Tecnologia de Tomar, lecionada pelos docentes José Casimiro Pereira e Paulo Santos, durante o ano letivo 2023/24."
         android:textColor="@color/white"
-        android:textSize="18sp"
-        android:text="Bem-vindo ao PokeWeather, a tua aplicação meteorológica! Desenvolvida por António Neves e Alix Carmo como parte da Unidade Curricular de Desenvolvimento de Aplicações Móveis na Escola Superior de Tecnologia de Tomar, lecionada pelos docentes José Casimiro Pereira e Paulo Santos, durante o ano letivo 2023/24." />
+        android:textSize="18sp" />
 </RelativeLayout>

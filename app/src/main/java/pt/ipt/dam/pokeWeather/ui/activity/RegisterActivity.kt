@@ -46,7 +46,7 @@ class RegisterActivity : AppCompatActivity() {
         userService.registerUser(userRegister).enqueue(object : Callback<UserRegister> {
             override fun onResponse(call: Call<UserRegister>, response: Response<UserRegister>) {
                 if (response.isSuccessful) {
-                    Toast.makeText(this@RegisterActivity, "Welcolme ${userRegister.Nome}", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(this@RegisterActivity, "Welcome ${userRegister.Nome}", Toast.LENGTH_SHORT).show()
                     Log.e("RegisterActivity", "UserRegister registered successfully.")
                     val intent = Intent(this@RegisterActivity, LoginActivity::class.java)
                     startActivity(intent)
