@@ -2944,12 +2944,20 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable alix
+drawable antonio
 drawable avd_hide_password
 drawable avd_show_password
 drawable baseline_add_24
 drawable baseline_arrow_back_24
 drawable baseline_arrow_drop_down_24
+drawable baseline_delete_24
+drawable baseline_email_24
 drawable baseline_info_24
+drawable baseline_list_alt_24
+drawable baseline_logout_24
+drawable baseline_password_24
+drawable baseline_person_24
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -2965,6 +2973,7 @@ drawable design_password_eye
 drawable design_snackbar_background
 drawable gradient_bg
 drawable humidity
+drawable ic_app_icon
 drawable ic_arrow_back_black_24
 drawable ic_call_answer
 drawable ic_call_answer_low
@@ -3059,6 +3068,7 @@ drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable pressure
+drawable rounded_corners
 drawable sensacao
 drawable test_level_drawable
 drawable tooltip_frame_dark
@@ -3162,6 +3172,10 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
+id btnDelete
+id btnLogout
+id btnRegister
+id btnSave
 id buttonLogin
 id buttonPanel
 id buttonRegister
@@ -3243,7 +3257,7 @@ id edge
 id editTextEmail
 id editTextName
 id editTextPassword
-id editTextPhone
+id editWeatherTextView
 id edit_query
 id edit_text_id
 id elastic
@@ -3320,7 +3334,7 @@ id linear
 id listMode
 id list_item
 id loader
-id loginContainer
+id loginLayout
 id m3_side_sheet
 id mainContainer
 id marquee
@@ -3461,6 +3475,7 @@ id scrollIndicatorDown
 id scrollIndicatorUp
 id scrollView
 id scrollable
+id searchBar
 id search_badge
 id search_bar
 id search_button
@@ -3563,6 +3578,7 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id tvContinueWithoutLogin
 id tvFeelsLike
 id tvHumidity
 id tvPressure
@@ -3582,6 +3598,8 @@ id view_tree_saved_state_registry_owner
 id view_tree_view_model_store_owner
 id visible
 id visible_removing_fragment_view_tag
+id weatherList
+id weatherTextView
 id west
 id withText
 id with_icon
@@ -3789,7 +3807,9 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
+layout weather_item
 mipmap ic_launcher
+mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
 string abc_action_bar_home_description

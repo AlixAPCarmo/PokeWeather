@@ -20,27 +20,31 @@
             android:id="@+id/menuContainer"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:orientation="vertical">
 
             <Button
                 android:id="@+id/aboutUsbtn"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
                 android:background="@drawable/baseline_info_24"
+                android:layout_marginBottom="16dp"
                 tools:ignore="SpeakableTextPresentCheck" />
-
-            <Space
-                android:layout_width="250dp"
-                android:layout_height="wrap_content" />
 
             <Button
                 android:id="@+id/itemListbtn"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_gravity="end"
-                android:background="@drawable/baseline_add_24"
-                tools:ignore="SpeakableTextPresentCheck" />
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:background="@drawable/baseline_list_alt_24"
+                tools:ignore="SpeakableTextPresentCheck"
+                android:layout_marginBottom="16dp"/>
+
+            <Button
+                android:id="@+id/btnLogout"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:background="@drawable/baseline_logout_24"/>
         </LinearLayout>
+
 
         <LinearLayout
             android:id="@+id/overviewContainer"
@@ -69,7 +73,7 @@
                 android:layout_centerInParent="true"
                 android:layout_gravity="center"
 
-                 />
+                />
 
             <TextView
                 android:id="@+id/tempView"
