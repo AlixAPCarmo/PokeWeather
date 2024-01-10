@@ -1,6 +1,0 @@
-pt.ipt.dam.pokeWeather.test.app-annotation-experimental-1.3.0-0 C:\Users\alixc\.gradle\caches\transforms-3\797bb4300d684879acba633676f347d5\transformed\annotation-experimental-1.3.0\res
-pt.ipt.dam.pokeWeather.test.app-core-1.5.0-1 C:\Users\alixc\.gradle\caches\transforms-3\9d695c1ba31a5c057ac7eff9e6e46cd4\transformed\core-1.5.0\res
-pt.ipt.dam.pokeWeather.test.app-androidTest-2 C:\Users\alixc\Desktop\PokeWeather2023\app\build\generated\res\resValues\androidTest\debug
-pt.ipt.dam.pokeWeather.test.app-mergeDebugAndroidTestResources-3 C:\Users\alixc\Desktop\PokeWeather2023\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
-pt.ipt.dam.pokeWeather.test.app-mergeDebugAndroidTestResources-4 C:\Users\alixc\Desktop\PokeWeather2023\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
-pt.ipt.dam.pokeWeather.test.app-merged_res-5 C:\Users\alixc\Desktop\PokeWeather2023\app\build\intermediates\merged_res\debugAndroidTest
