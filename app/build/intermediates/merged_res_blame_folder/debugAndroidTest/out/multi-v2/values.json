@@ -4,7 +4,7 @@
             "outputFile": "pt.ipt.dam.pokeWeather.test.app-mergeDebugAndroidTestResources-3:/values/values.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\aluno23321\\.gradle\\caches\\transforms-3\\9d695c1ba31a5c057ac7eff9e6e46cd4\\transformed\\core-1.5.0\\res\\values\\values.xml",
+                    "source": "C:\\Users\\alixc\\.gradle\\caches\\transforms-3\\9d695c1ba31a5c057ac7eff9e6e46cd4\\transformed\\core-1.5.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "4,11",
                         "startColumns": "0,0",

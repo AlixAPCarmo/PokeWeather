@@ -1,5 +1,7 @@
 package pt.ipt.dam.pokeWeather.model
 
+// data class to handle response from api with specific keys
+// main, sys, weather and coord are the main key from the api response
 data class WeatherResponse (
     val main: Main,
     val sys: Sys,
@@ -8,6 +10,7 @@ data class WeatherResponse (
     val coord: Coord,
 )
 
+// main data class with the response from the call to the weather api
 data class Main(
     val temp: Double,
     val feels_like: Double,
@@ -16,6 +19,7 @@ data class Main(
     val pressure: Int,
     val humidity: Int
 )
+
 
 data class Sys(
     val type: Int,

@@ -13,10 +13,12 @@ import retrofit2.http.Query
 
 interface UserService {
 
+    // api endpoint to register a new user
     @Headers("Content-Type: application/json")
     @POST("api/PessoasAPI/create")
     fun registerUser(@Body userRegisterData: UserRegister): Call<UserRegister>
 
+    // api endpoint to login an existing user
     @Headers("Content-Type: application/json")
     @POST("api/PessoasAPI/login")
     fun loginUser(@Body loginRequest: UserLoginRequest): Call<UserLoginResponse>

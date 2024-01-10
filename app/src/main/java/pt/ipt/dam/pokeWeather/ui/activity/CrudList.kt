@@ -18,9 +18,11 @@ import pt.ipt.dam.pokeWeather.retrofit.RetrofitInitializer
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
+import kotlin.math.roundToInt
 
 class CrudList : AppCompatActivity() {
 
+    // variable declaration
     private lateinit var searchBar: SearchView
     private lateinit var weatherList: RecyclerView
     private lateinit var weatherAdapter: WeatherAdapter
@@ -41,6 +43,7 @@ class CrudList : AppCompatActivity() {
         weatherList.adapter = weatherAdapter
         weatherList.layoutManager = LinearLayoutManager(this)
 
+        // implements return button
         btnReturn = findViewById(R.id.returnBtn)
         btnReturn.setOnClickListener {
             val intent = Intent(this, PokeWeatherActivity::class.java)
@@ -48,6 +51,7 @@ class CrudList : AppCompatActivity() {
             finish()
         }
 
+        //implements search bar
         searchBar.setOnQueryTextListener(object : SearchView.OnQueryTextListener {
             override fun onQueryTextSubmit(query: String?): Boolean {
                 query?.let {
@@ -55,7 +59,7 @@ class CrudList : AppCompatActivity() {
                         performWeatherSearch(it)
                         searchBar.clearFocus()
                     } else {
-                        Toast.makeText(this@CrudList, "Error in format", Toast.LENGTH_LONG).show()
+                        Toast.makeText(this@CrudList, "Erro no formato", Toast.LENGTH_LONG).show()
                     }
                 }
                 return true
@@ -68,11 +72,11 @@ class CrudList : AppCompatActivity() {
 
         weatherAdapter.setOnItemClickListener(object : WeatherAdapter.OnItemClickListener {
             override fun onEditClick(position: Int) {
-                Toast.makeText(this@CrudList, "Edit clicked at position $position", Toast.LENGTH_SHORT).show()
+                //Toast.makeText(this@CrudList, "Edit clicked at position $position", Toast.LENGTH_SHORT).show()
             }
 
             override fun onDeleteClick(position: Int) {
-                // Handle the delete action here
+                // Handle the delete action
                 weatherAdapter.removeWeatherItem(position)
                 saveWeatherListToSharedPreferences()
             }
@@ -93,7 +97,7 @@ class CrudList : AppCompatActivity() {
 
             }
         })
-
+        // gets the weather list from shared pref
         loadWeatherListFromSharedPreferences()
     }
 
@@ -103,6 +107,7 @@ class CrudList : AppCompatActivity() {
         saveWeatherListToSharedPreferences()
     }
 
+    // gets weather lsit from shared pref
     private fun loadWeatherListFromSharedPreferences() {
         val sharedPreferences = getSharedPreferences(SHARED_PREF_NAME, Context.MODE_PRIVATE)
         val weatherListSet = sharedPreferences.getStringSet(KEY_WEATHER_LIST, HashSet())
@@ -110,6 +115,7 @@ class CrudList : AppCompatActivity() {
         weatherAdapter.setWeatherItems(weatherList)
     }
 
+    // save weather lsit to shared pref
     private fun saveWeatherListToSharedPreferences() {
         val sharedPreferences = getSharedPreferences(SHARED_PREF_NAME, Context.MODE_PRIVATE)
         val editor = sharedPreferences.edit()
@@ -118,11 +124,13 @@ class CrudList : AppCompatActivity() {
         editor.apply()
     }
 
+    //checks if the query on search bar follows the (city, country code)
     private fun isValidQuery(query: String): Boolean {
         val parts = query.split(",")
         return parts.size == 2 && parts[1].length <= 3
     }
 
+    // gets weather from the user location input
     private fun performWeatherSearch(query: String) {
         RetrofitInitializer().weatherService().getWeatherCity(query)
             .enqueue(object : Callback<WeatherResponse> {
@@ -132,7 +140,7 @@ class CrudList : AppCompatActivity() {
                 ) {
                     if (response.isSuccessful) {
                         val weatherData = response.body()
-                        val tempInCelsius = kelvinToCelsius(weatherData?.main?.temp)
+                        val tempInCelsius = weatherData?.main?.temp?.minus(273.15)?.roundToInt().toString()
                         val displayText = "${weatherData?.name}: $tempInCelsius°C"
 
                         runOnUiThread {
@@ -157,11 +165,4 @@ class CrudList : AppCompatActivity() {
             })
     }
 
-    private fun kelvinToCelsius(tempInKelvin: Double?): String {
-        return if (tempInKelvin != null) {
-            "%.0f".format(tempInKelvin - 273.15)
-        } else {
-            "N/A"
-        }
-    }
 }

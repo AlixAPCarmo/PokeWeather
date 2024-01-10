@@ -21,6 +21,7 @@ drawable baseline_password_24
 drawable baseline_person_24
 drawable gradient_bg
 drawable humidity
+drawable ic_app_icon
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable pressure
@@ -72,6 +73,7 @@ layout activity_main
 layout activity_register
 layout weather_item
 mipmap ic_launcher
+mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 string app_name
 string email_hint

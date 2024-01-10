@@ -33,35 +33,44 @@ import java.util.concurrent.Executors
 import kotlin.math.roundToInt
 
 class PokeWeatherActivity : AppCompatActivity(), LocationListener {
-    private lateinit var locationManager: LocationManager
 
+    // variable declaration
+    private lateinit var locationManager: LocationManager
     private lateinit var tvGpsLocation: TextView
     private val locationPermissionCode = 2
-    //places api key
-    //AIzaSyAGQwWNMkKqM-QEvsafZe6Ym6bpbm6E97w
-
     private lateinit var btnAboutUs: Button
     private lateinit var btnItemList: Button
     private lateinit var btnLogout:Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+        // set view to activity main layout
         setContentView(R.layout.activity_main)
+
+        //get current user location
         getLocation()
 
+        // get button "about us" and redirects to its view
         btnAboutUs = findViewById(R.id.aboutUsbtn)
+
         btnAboutUs.setOnClickListener {
             val intent = Intent(this, AboutUs::class.java)
             startActivity(intent)
             finish()
         }
 
+        // get button to redirect to btn item list.
         btnItemList = findViewById(R.id.itemListbtn)
         btnItemList.setOnClickListener {
+            //validation if user is logged in or not.
+            //if not he cannot access list activity
             if (!isUserLoggedIn()) {
                 Snackbar.make(it, "É necessário efetuar login para aceder a esta funcionalidade", Snackbar.LENGTH_LONG)
                     .setAction("Login") {
-                        navigateToLoginActivity()
+                        val intent = Intent(this, LoginActivity::class.java)
+                        startActivity(intent)
+                        finish()
                     }.show()
             } else {
                 val intent = Intent(this, CrudList::class.java)
@@ -70,19 +79,24 @@ class PokeWeatherActivity : AppCompatActivity(), LocationListener {
             }
         }
 
+        //get button to login/logout.
         btnLogout = findViewById(R.id.btnLogout)
-
+        // checks if user is logged in or not
+        // if logged in, when pressed, calls fun to logout user
         btnLogout.setOnClickListener {
             if (isUserLoggedIn()) {
                 logoutUser()
             } else {
-                navigateToLoginActivity()
+                //else redirects to login activity
+                val intent = Intent(this, LoginActivity::class.java)
+                startActivity(intent)
+                finish()
             }
         }
     }
 
+    // function to get current temperature based on device location
     private fun getTemperature(lat: Double, long: Double) {
-        // Log.e("gt coords", "$lat, $long")
         RetrofitInitializer().weatherService().getWeather(lat, long)
             .enqueue(object : Callback<WeatherResponse> {
                 override fun onResponse(
@@ -91,8 +105,10 @@ class PokeWeatherActivity : AppCompatActivity(), LocationListener {
                 ) {
                     // Check if the user is logged in
                     val isAuthenticated = isUserLoggedIn()
+
                     // get temp from api
                     val temperature = response.body()?.main?.temp
+
                     // Convert from Kelvin to Celsius
                     val temperatureCelsius = temperature?.minus(273.15)?.roundToInt().toString()
                     val temperatureFeelsLike = response.body()?.main?.feels_like?.minus(273.15)?.roundToInt().toString()
@@ -136,17 +152,16 @@ class PokeWeatherActivity : AppCompatActivity(), LocationListener {
                     }
 
                     // console logs
-                    Log.e("getTemperature", "$temperature")
-                    Log.e("getTemperature", "$temperatureCelsius")
-                    Log.e("getTemperature", "$lat,$long")
+                    //Log.e("getTemperature", "$temperature")
+                    //Log.e("getTemperature",  "$temperatureCelsius")
+                    //Log.e("getTemperature","$lat,$long")
                 }
 
                 override fun onFailure(call: Call<WeatherResponse>, t: Throwable) {
-                    Log.e("getTemperature", "Call failed with error: ${t.message}")
+                    Log.e("getTemperature", "Erro ao comunicar com a API: ${t.message}")
                 }
             })
     }
-
 
 
     //code for this function obtained at:
@@ -180,6 +195,7 @@ class PokeWeatherActivity : AppCompatActivity(), LocationListener {
     }
 
 
+    //function that asks user for permission
     private fun getLocation() {
         locationManager = getSystemService(Context.LOCATION_SERVICE) as LocationManager
         if ((ContextCompat.checkSelfPermission(
@@ -192,20 +208,18 @@ class PokeWeatherActivity : AppCompatActivity(), LocationListener {
                 locationPermissionCode
             )
         }
-        locationManager.requestLocationUpdates(LocationManager.NETWORK_PROVIDER, 5000, 5f, this)
-
+        locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, 5000, 5f, this)
     }
 
+    //function to get the current temperature if device location changes
     override fun onLocationChanged(location: Location) {
-        //tvGpsLocation = findViewById(R.id.textView)
-        //tvGpsLocation.text =
-        //"Latitude: " + location.latitude + " , Longitude: " + location.longitude
         val lat = location.latitude
         val long = location.longitude
         Log.e("Coordinates", "$lat, $long")
         getTemperature(lat, long)
     }
 
+    //handles location permissions results
     override fun onRequestPermissionsResult(
         requestCode: Int,
         permissions: Array<out String>,
@@ -214,14 +228,16 @@ class PokeWeatherActivity : AppCompatActivity(), LocationListener {
         super.onRequestPermissionsResult(requestCode, permissions, grantResults)
         if (requestCode == locationPermissionCode) {
             if (grantResults.isNotEmpty() && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
-                Toast.makeText(this, "Permission Granted", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "Permissões autorizadas", Toast.LENGTH_SHORT).show()
             } else {
-                Toast.makeText(this, "Permission Denied", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "Permissões são necessárias", Toast.LENGTH_SHORT).show()
+                //getLocation()
             }
         }
 
     }
 
+    //checks if user is logged in
     private fun isUserLoggedIn(): Boolean {
         val sharedPreferences = getSharedPreferences("MySharedPref", MODE_PRIVATE)
         val token = sharedPreferences.getString("auth_token", "")
@@ -230,16 +246,16 @@ class PokeWeatherActivity : AppCompatActivity(), LocationListener {
         return token?.isNotEmpty() == true && currentTime < expirationTime
     }
 
-    private fun navigateToLoginActivity() {
-        val intent = Intent(this, LoginActivity::class.java)
-        startActivity(intent)
-        finish()
-    }
 
+    //clears user token and name from shared pref
     private fun logoutUser() {
         val sharedPreferences = getSharedPreferences("MySharedPref", MODE_PRIVATE)
         sharedPreferences.edit().remove("auth_token").remove("token_expiration_time").apply()
-
+        Toast.makeText(
+            this@PokeWeatherActivity,
+            "Logout efetuado!",
+            Toast.LENGTH_LONG
+        ).show()
         val intent = Intent(this, LoginActivity::class.java)
         startActivity(intent)
         finish()

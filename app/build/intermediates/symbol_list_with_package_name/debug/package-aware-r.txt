@@ -2973,6 +2973,7 @@ drawable design_password_eye
 drawable design_snackbar_background
 drawable gradient_bg
 drawable humidity
+drawable ic_app_icon
 drawable ic_arrow_back_black_24
 drawable ic_call_answer
 drawable ic_call_answer_low
@@ -3808,6 +3809,7 @@ layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
 layout weather_item
 mipmap ic_launcher
+mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
 string abc_action_bar_home_description
